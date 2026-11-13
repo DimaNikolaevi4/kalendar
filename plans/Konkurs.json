@@ -1,0 +1,115 @@
+{
+  "repo": "Konkurs",
+  "updated_at": "2026-11-13T21:03:21+03:00",
+  "source_file": "E:\\github\\Konkurs\\plan.json",
+  "tasks": [
+    {
+      "id": "minsk-meet-test",
+      "title": "Тест Google Meet по методике Minsk/docs/04 (10.11 meet не отвечал — TLS/SNI-фильтрация)",
+      "when": "2026-11-17",
+      "time": null,
+      "status": "in-progress",
+      "why": "если Meet не заработает к 18.11 — регистрироваться заочно",
+      "link": "Minsk/docs/04_metodika-proverki-meet.md",
+      "source": "owner"
+    },
+    {
+      "id": "achii-docs-clarify",
+      "title": "Уточнить у Несмияна: документ об участии (участнику и руководителю), сведения о руководителе в сборнике, срок сборника",
+      "when": "2026-11-18",
+      "time": null,
+      "status": "todo",
+      "why": "нужно для портфолио; канал — методист или письмо",
+      "link": "plan-raboty.md",
+      "source": "owner"
+    },
+    {
+      "id": "minsk-google-login",
+      "title": "Проверить вход в аккаунт Google (форма без входа не открывается)",
+      "when": "2026-11-20",
+      "time": null,
+      "status": "todo",
+      "why": "регистрация через Google-форму; если не открыть — писать Ульяновой",
+      "link": "plan-raboty.md",
+      "source": "owner"
+    },
+    {
+      "id": "minsk-registration",
+      "title": "Регистрация Минск: Google-форма + статья «№ 5. Чагин Павел Павлович.docx»; форма участия (онлайн/заочно) — решение в момент регистрации",
+      "when": "2026-11-24",
+      "time": null,
+      "status": "todo",
+      "why": "дедлайн 24.11 включительно, позднее = вылет",
+      "link": "plan-raboty.md",
+      "source": "owner"
+    },
+    {
+      "id": "achii-energy-topic",
+      "title": "Выбрать тему/студента/направление для АЧИИ «День энергетика» (кандидаты: Пельтье, ЗИП)",
+      "when": "2026-11-25",
+      "time": null,
+      "status": "todo",
+      "why": "чтобы к 01.12 заявка ушла без спешки",
+      "link": "plan-raboty.md",
+      "source": "owner"
+    },
+    {
+      "id": "minsk-admission-check",
+      "title": "Проверить список допущенных на guo-mpk.by",
+      "when": "2026-11-28",
+      "time": null,
+      "status": "todo",
+      "why": "подтверждение допуска к выступлению",
+      "link": "",
+      "source": "owner"
+    },
+    {
+      "id": "achii-energy-application",
+      "title": "Заявка АЧИИ «День энергетика» на energy_nauka@mail.ru (заочная форма)",
+      "when": "2026-12-01",
+      "time": null,
+      "status": "todo",
+      "why": "дедлайн 01.12",
+      "link": "Zernograd-Energo-2026/README.md",
+      "source": "owner"
+    },
+    {
+      "id": "minsk-link-check",
+      "title": "Проверить на guo-mpk.by ссылку для подключения к заседанию",
+      "when": "2026-12-02",
+      "time": null,
+      "status": "todo",
+      "why": "накануне выступления 03–04.12",
+      "link": "",
+      "source": "owner"
+    },
+    {
+      "id": "minsk-talk",
+      "title": "Выступление Минск (Google Meet, до 5 минут, с презентацией)",
+      "when": "2026-12-03",
+      "time": null,
+      "status": "todo",
+      "why": "заседание секции № 5",
+      "link": "",
+      "source": "owner"
+    },
+    {
+      "id": "achii-energy-article",
+      "title": "Статья АЧИИ «День энергетика» (≤4 стр., стандарт АЧИИ) на energy_nauka@mail.ru",
+      "when": "2026-12-05",
+      "time": null,
+      "status": "todo",
+      "why": "дедлайн 05.12 включительно",
+      "link": "Zernograd-Energo-2026/README.md",
+      "source": "owner"
+    },
+    {
+      "id": "konkurs-reserve-topics",
+      "title": "Резервные темы будущих конференций: Пельтье, расчёт ЗИП, LMS Moodle, AI-репетитор «Гравитация»",
+      "status": "backlog",
+      "why": "по необходимости",
+      "link": "plan-raboty.md",
+      "source": "owner"
+    }
+  ]
+}
