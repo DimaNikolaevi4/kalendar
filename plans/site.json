@@ -1,0 +1,35 @@
+{
+  "repo": "site",
+  "updated_at": "2026-11-13T21:03:26+03:00",
+  "source_file": "E:\\github\\site\\plan.json",
+  "tasks": [
+    {
+      "id": "site-pr-124",
+      "title": "Решить судьбу PR #124 (этап V2 проверен и подтверждён, слияние в main в этап не входило)",
+      "when": "2026-11-20",
+      "time": null,
+      "status": "todo",
+      "why": "висящий PR теряет контекст и конфликтует с будущими правками main",
+      "link": "CHECKLIST.md",
+      "source": "owner"
+    },
+    {
+      "id": "site-mentor-removal",
+      "title": "Сверить статус MENTOR_REMOVAL_CHECKLIST: что снято, что осталось",
+      "when": "2026-11-21",
+      "time": null,
+      "status": "todo",
+      "why": "чеклист открыт — не видно, завершена ли операция",
+      "link": "MENTOR_REMOVAL_CHECKLIST.md",
+      "source": "agent"
+    },
+    {
+      "id": "site-schedule-routine",
+      "title": "Регулярное обновление расписания/графика учебного процесса по мере изменений",
+      "status": "backlog",
+      "why": "рутина: уже обновлялся график 2025-26 → 2026-27",
+      "link": "",
+      "source": "agent"
+    }
+  ]
+}
