@@ -18,12 +18,14 @@
 from __future__ import annotations
 
 import json
+import re
 import subprocess
 import sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 HUB = Path(__file__).resolve().parent
+GITHUB = HUB.parent
 MSK = timezone(timedelta(hours=3))
 OUT = HUB / "PLAN.md"
 PLANS = HUB / "plans"
@@ -59,8 +61,39 @@ def load() -> list[tuple[str, dict]]:
     return rows
 
 
+def github_link(repo: str, rel: str | None) -> str | None:
+    """Ссылка на файл в GitHub-репозитории (по remote.origin.url и ветке).
+    Если remote не разобрать — None (ссылка останется сырой)."""
+    if not rel:
+        return None
+    src = GITHUB / repo
+    try:
+        url = subprocess.run(
+            ["git", "-C", str(src), "config", "--get", "remote.origin.url"],
+            capture_output=True, text=True, encoding="utf-8",
+            errors="replace", timeout=15).stdout.strip()
+        branch = subprocess.run(
+            ["git", "-C", str(src), "rev-parse", "--abbrev-ref", "HEAD"],
+            capture_output=True, text=True, encoding="utf-8",
+            errors="replace", timeout=15).stdout.strip()
+    except Exception:
+        return None
+    m = re.search(r"github\.com[/:]([^/]+)/([^/]+?)(?:\.git)?/?$", url)
+    if not m or not branch:
+        return None
+    return f"https://github.com/{m.group(1)}/{m.group(2)}/blob/{branch}/{rel}"
+
+
 def esc(s: str) -> str:
     return (s or "").replace("|", "\\|").replace("\n", " ")
+
+
+def link_md(repo: str, t: dict) -> str:
+    raw = t.get("link") or ""
+    if not raw:
+        return "—"
+    gh = github_link(repo, raw)
+    return f"[открыть]({gh})" if gh else f"[открыть]({esc(raw)})"
 
 
 def row(repo: str, t: dict, today: date) -> str:
@@ -72,7 +105,7 @@ def row(repo: str, t: dict, today: date) -> str:
         days = f" (**+{(today - date.fromisoformat(when)).days} дн.**)"
     why = esc(t.get("why") or "")
     title = f"{esc(t.get('title') or '')}{days}"
-    return f"| {when or '—'} | {repo} | {title} | {st} | {why} | {link} |"
+    return f"| {when or '—'} | {repo} | {title} | {st} | {why} | {link_md(repo, t)} |"
 
 
 def main() -> None:
@@ -117,7 +150,7 @@ def main() -> None:
     say(f"# План по всем репозиториям `E:\\github`")
     say("")
     say(f"> Собрано автоматически: **{now:%d.%m.%Y %H:%M} МСК**, "
-        f"задача «planner build plan» (07:25). Источники — `plans/*.json`,")
+        f"задача «Календарь build plan» (07:25). Источники — `plans/*.json`,")
     say("> их «скидывают» репозитории скриптом `drop.py`; источник истины — "
         "`plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.")
     # подсчёт по репозиториям
@@ -159,8 +192,7 @@ def main() -> None:
                 d, repo, t = item
                 say(f"| {d:%d.%m.%Y} | {repo} | {esc(t.get('title') or '')} | "
                     f"{STATUS_RU.get(t.get('status') or 'todo', '')} | "
-                    f"{esc(t.get('why') or '')} | "
-                    + (f"[открыть]({t['link']})" if t.get("link") else "—") + " |")
+                    f"{esc(t.get('why') or '')} | {link_md(repo, t)} |")
             else:
                 repo, t = item
                 say(row(repo, t, today))
@@ -194,7 +226,7 @@ def main() -> None:
         say("|---|---|---|---|")
         for repo, t in backlog:
             say(f"| {repo} | {esc(t.get('title') or '')} | {esc(t.get('why') or '')} | "
-                + (f"[открыть]({t['link']})" if t.get("link") else "—") + " |")
+                f"{link_md(repo, t)} |")
     else:
         say("пусто")
     say("")
