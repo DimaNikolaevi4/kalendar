@@ -1,22 +1,29 @@
 # План по всем репозиториям `E:\github`
 
-> Собрано автоматически: **14.11.2026 07:58 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
+> Собрано автоматически: **14.11.2026 08:01 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
 > их «скидывают» репозитории скриптом `drop.py`; источник истины — `plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.
 
-Обновлено планов в хабе: **8** · задач всего: **234**
+Обновлено планов в хабе: **15** · задач всего: **243**
 
-Открытых задач: 168 · просрочено: **0** · сделано: 66
+Открытых задач: 177 · просрочено: **0** · сделано: 66
 
 | репозиторий | план обновлён | всего | просрочено | сделано |
 |---|---|---|---|---|
-| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 14.11 07:52 | 11 | 0 | 0 |
-| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 14.11 07:52 | 209 | 0 | 66 |
-| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 14.11 07:58 | 3 | 0 | 0 |
-| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 14.11 07:52 | 4 | 0 | 0 |
-| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 14.11 07:52 | 2 | 0 | 0 |
-| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 14.11 07:52 | 1 | 0 | 0 |
-| [site](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/site.json) | 14.11 07:52 | 3 | 0 | 0 |
-| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 14.11 07:52 | 1 | 0 | 0 |
+| [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 14.11 08:01 | 1 | 0 | 0 |
+| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 14.11 08:01 | 11 | 0 | 0 |
+| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 14.11 08:01 | 209 | 0 | 66 |
+| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 14.11 08:01 | 3 | 0 | 0 |
+| [al](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/al.json) | 14.11 08:01 | 1 | 0 | 0 |
+| [al-agent](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/al-agent.json) | 14.11 08:01 | 1 | 0 | 0 |
+| [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 14.11 08:01 | 1 | 0 | 0 |
+| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 14.11 08:01 | 4 | 0 | 0 |
+| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 14.11 08:01 | 3 | 0 | 0 |
+| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 14.11 08:01 | 1 | 0 | 0 |
+| [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 14.11 08:01 | 1 | 0 | 0 |
+| [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 14.11 08:01 | 1 | 0 | 0 |
+| [site](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/site.json) | 14.11 08:01 | 4 | 0 | 0 |
+| [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 14.11 08:01 | 1 | 0 | 0 |
+| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 14.11 08:01 | 1 | 0 | 0 |
 
 ## Просрочено
 
@@ -203,13 +210,22 @@
 
 | репо | задача | зачем | ссылка |
 |---|---|---|---|
+| al-agent | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
+| al | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
+| AvtoOtvety-Seller | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
+| avtosite | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | bardakov.rf | Ревью секции rotator: довести до финального вида | последняя активность репо - секция rotator, её надо закрыть | [открыть](https://github.com/DimaNikolaevi4/bardakov.rf/blob/main/docs/DESIGN.md) |
 | bardakov.rf | Пройтись по docs/old-inventory.md: что из старого контента переносим в статику | без отбора контента не спланировать этап миграции | [открыть](https://github.com/DimaNikolaevi4/bardakov.rf/blob/main/docs/old-inventory.md) |
 | bardakov.rf | Определить следующий этап переноса: выборка страниц под миграцию | начинать после ревью rotator и отбора контента | [открыть](https://github.com/DimaNikolaevi4/bardakov.rf/blob/main/docs/DESIGN.md) |
 | cit-calck.rf | Определить регулярные дела репозитория (что вообще планировать в календаре) | ритм работ пока не ясен — нужен разговор с владельцем | — |
+| cit-calck.rf | Сверить site и cit-calck.rf: подтвердить, что site лишний дубликат, и удалить репозиторий site | репозитории дублируют друг друга; удаление репо на GitHub выполняется вручную владельцем | — |
+| ii-monolit | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | Konkurs | Резервные темы будущих конференций: Пельтье, расчёт ЗИП, LMS Moodle, AI-репетитор «Гравитация» | по необходимости | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/plan-raboty.md) |
 | MAX | [Забавное] Созерцатель | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-13-random-AaBZQbBWJBk.md) |
 | MAX | [Забавное] Верни детей, бессовестная! | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-13-random-AaBjKuaED2A.md) |
 | MAX | [Забавное] Исчезновение | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-13-random-AaBx64qmOCI.md) |
+| moodle | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | site | Регулярное обновление расписания/графика учебного процесса по мере изменений | рутина: уже обновлялся график 2025-26 → 2026-27 | — |
+| site | Свёртка: репо, вероятно, лишний дубликат cit-calck.rf - после сверки удалить (вручную владельцем) | дублирует cit-calck.rf, связи контента подтверждены коммитом фиксации ссылок на аудиты | — |
+| videosite | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | YMK | Следующий пакет КТП после МДК 05.02 (группа и МДК — по РП) | генератор и валидатор готовы, очередь наполнения открыта | [открыть](https://github.com/DimaNikolaevi4/YMK/blob/main/logic.md) |
