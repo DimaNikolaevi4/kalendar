@@ -1,0 +1,17 @@
+{
+  "repo": "al-agent",
+  "updated_at": "2026-11-14T08:01:39+03:00",
+  "source_file": "E:\\github\\al-agent\\plan.json",
+  "tasks": [
+    {
+      "id": "repo-review",
+      "title": "Срочных дел нет: определить актуальные задачи репозитория в свободное время",
+      "when": null,
+      "time": null,
+      "status": "backlog",
+      "why": "владелец: остальные репозитории не требуют срочных дел",
+      "link": "",
+      "source": "owner"
+    }
+  ]
+}
