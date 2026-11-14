@@ -1,6 +1,6 @@
 # План по всем репозиториям `E:\github`
 
-> Собрано автоматически: **14.11.2026 08:19 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
+> Собрано автоматически: **14.11.2026 08:20 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
 > их «скидывают» репозитории скриптом `drop.py`; источник истины — `plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.
 
 Обновлено планов в хабе: **15** · задач всего: **243**
@@ -12,7 +12,7 @@
 | [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 14.11 08:01 | 1 | 0 | 0 |
 | [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 14.11 08:19 | 11 | 0 | 0 |
 | [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 14.11 08:01 | 209 | 0 | 66 |
-| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 14.11 08:01 | 3 | 0 | 0 |
+| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 14.11 08:20 | 3 | 0 | 0 |
 | [al](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/al.json) | 14.11 08:01 | 1 | 0 | 0 |
 | [al-agent](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/al-agent.json) | 14.11 08:01 | 1 | 0 | 0 |
 | [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 14.11 08:01 | 1 | 0 | 0 |
@@ -48,7 +48,7 @@
 | 17.11.2026 | MAX | [Коты, кошки и котята] 71-летняя женщина доказала, что никогда не поздно получить татуировку | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-17-004-71-letnyaya-zhenschina-dokazala-chto-nikogda-ne-p1.md) |
 | 18.11.2026 | Konkurs | Уточнить у Несмияна: документ об участии (участнику и руководителю), сведения о руководителе в сборнике, срок сборника | сделать | нужно для портфолио; канал — методист или письмо | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/plan-raboty.md) |
 | 18.11.2026 | MAX | [Коты, кошки и котята] На фото — герои завтрашнего выпуска | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-18-005-8-samyh-krasivyh-dlinnosherstnyh-porod-koshek-img1.md) |
-| 18.11.2026 | YMK | Создать перечни практических для мастеров и тематической аттестации на чётные семестры (через generate_perechen_docx.py + validate_perechen.py) | сделать | перечни есть только на текущий (нечётный) семестр, чётные не начаты | [открыть](https://github.com/DimaNikolaevi4/YMK/blob/main/README.md) |
+| 18.11.2026 | YMK | Создать перечни практических для мастеров и тематической аттестации на чётные семестры - красная зона | сделать | перечни есть только на текущий семестр, чётные не начаты; генерация по образцу: generate_perechen_docx.py + validate_perechen.py | [открыть](https://github.com/DimaNikolaevi4/YMK/blob/main/README.md) |
 | 19.11.2026 | MAX | [Коты, кошки и котята] 8 самых красивых длинношерстных пород кошек | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-19-005-8-samyh-krasivyh-dlinnosherstnyh-porod-koshek-p1.md) |
 | 20.11.2026 | Konkurs | Проверить вход в аккаунт Google (форма без входа не открывается) | сделать | регистрация через Google-форму; если не открыть — писать Ульяновой | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/plan-raboty.md) |
 | 20.11.2026 | MAX | [Коты, кошки и котята] Герои завтрашнего поста | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-20-006-9-samyh-krasivyh-korotkosherstnyh-porod-koshek-img1.md) |
