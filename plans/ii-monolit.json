@@ -1,0 +1,17 @@
+{
+  "repo": "ii-monolit",
+  "updated_at": "2026-11-14T08:00:58+03:00",
+  "source_file": "E:\\github\\ii-monolit\\plan.json",
+  "tasks": [
+    {
+      "id": "repo-review",
+      "title": "Срочных дел нет: определить актуальные задачи репозитория в свободное время",
+      "when": null,
+      "time": null,
+      "status": "backlog",
+      "why": "владелец: остальные репозитории не требуют срочных дел",
+      "link": "",
+      "source": "owner"
+    }
+  ]
+}
