@@ -1,15 +1,15 @@
 {
   "repo": "Konkurs",
-  "updated_at": "2026-11-14T08:01:47+03:00",
+  "updated_at": "2026-11-14T08:19:45+03:00",
   "source_file": "E:\\github\\Konkurs\\plan.json",
   "tasks": [
     {
       "id": "minsk-meet-test",
-      "title": "Тест Google Meet по методике Minsk/docs/04 (10.11 meet не отвечал — TLS/SNI-фильтрация)",
-      "when": "2026-11-17",
+      "title": "Тест Google Meet по методике Minsk/docs/04 - в понедельник 16.11, красная зона",
+      "when": "2026-11-16",
       "time": null,
       "status": "in-progress",
-      "why": "если Meet не заработает к 18.11 — регистрироваться заочно",
+      "why": "беседа с Хайдарычем; если Meet не заработает - письмо в Минск или звонок; проверить возможность дистанта на других платформах",
       "link": "Minsk/docs/04_metodika-proverki-meet.md",
       "source": "owner"
     },
