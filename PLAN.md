@@ -1,21 +1,22 @@
 # План по всем репозиториям `E:\github`
 
-> Собрано автоматически: **14.11.2026 07:40 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
+> Собрано автоматически: **14.11.2026 07:52 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
 > их «скидывают» репозитории скриптом `drop.py`; источник истины — `plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.
 
-Обновлено планов в хабе: **7** · задач всего: **232**
+Обновлено планов в хабе: **8** · задач всего: **233**
 
-Открытых задач: 166 · просрочено: **0** · сделано: 66
+Открытых задач: 167 · просрочено: **0** · сделано: 66
 
 | репозиторий | план обновлён | всего | просрочено | сделано |
 |---|---|---|---|---|
-| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 14.11 07:39 | 11 | 0 | 0 |
-| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 14.11 07:39 | 209 | 0 | 66 |
-| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 14.11 07:39 | 2 | 0 | 0 |
-| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 14.11 07:40 | 4 | 0 | 0 |
-| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 14.11 07:39 | 2 | 0 | 0 |
-| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 14.11 07:39 | 1 | 0 | 0 |
-| [site](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/site.json) | 14.11 07:39 | 3 | 0 | 0 |
+| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 14.11 07:52 | 11 | 0 | 0 |
+| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 14.11 07:52 | 209 | 0 | 66 |
+| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 14.11 07:52 | 2 | 0 | 0 |
+| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 14.11 07:52 | 4 | 0 | 0 |
+| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 14.11 07:52 | 2 | 0 | 0 |
+| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 14.11 07:52 | 1 | 0 | 0 |
+| [site](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/site.json) | 14.11 07:52 | 3 | 0 | 0 |
+| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 14.11 07:52 | 1 | 0 | 0 |
 
 ## Просрочено
 
@@ -49,7 +50,7 @@
 
 ## Запланировано (позже 21.11.2026)
 
-<details><summary>задач: 140 — развернуть</summary>
+<details><summary>задач: 141 — развернуть</summary>
 
 | когда | репо | задача | зачем |
 |---|---|---|---|
@@ -58,6 +59,7 @@
 | 24.11.2026 | MAX | [Коты, кошки и котята] На фото — герои завтрашней статьи | публикация по Планировщику, канал «Коты, кошки и котята» |
 | 25.11.2026 | Konkurs | Выбрать тему/студента/направление для АЧИИ «День энергетика» (кандидаты: Пельтье, ЗИП) | чтобы к 01.12 заявка ушла без спешки |
 | 25.11.2026 | MAX | [Коты, кошки и котята] 6 уникальных пород кошек | публикация по Планировщику, канал «Коты, кошки и котята» |
+| 25.11.2026 | vol | Новая редакция паспорта (18494 Слесарь КИПиА): выработать методику правки паспортов программ и применить в остальных папках | около 10 паспортов по кодам 14919/15474/18494 должны быть приведены к единой новой редакции |
 | 27.11.2026 | demoexam-kip | Разработать помесячный план подготовки к ДЭ (ноябрь–май, до конца мая): какие навыки/элементы демо-экзамена отрабатываем по месяцам | до ДЭ в конце мая ~6,5 месяцев — без помесячного ритма отработка развалится |
 | 28.11.2026 | Konkurs | Проверить список допущенных на guo-mpk.by | подтверждение допуска к выступлению |
 | 30.11.2026 | cit-calck.rf | Контент-ревизия: ссылки и материалы сайта (аудиты, после фикса «ссылки на аудиты вели в репозиторий site») | недавние фиксы указывают на хрупкие связи контент↔репозиторий |
