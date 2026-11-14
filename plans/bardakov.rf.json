@@ -1,6 +1,6 @@
 {
   "repo": "bardakov.rf",
-  "updated_at": "2026-11-14T07:38:44+03:00",
+  "updated_at": "2026-11-14T07:38:53+03:00",
   "source_file": "E:\\github\\bardakov.rf\\plan.json",
   "tasks": [
     {
@@ -21,6 +21,16 @@
       "status": "todo",
       "why": "без отбора контента не спланировать этап миграции",
       "link": "docs/old-inventory.md",
+      "source": "agent"
+    },
+    {
+      "id": "migration-stage",
+      "title": "Определить следующий этап переноса: выборка страниц под миграцию",
+      "when": null,
+      "time": null,
+      "status": "backlog",
+      "why": "начинать после ревью rotator и отбора контента",
+      "link": "docs/DESIGN.md",
       "source": "agent"
     }
   ]
