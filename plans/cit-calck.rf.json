@@ -1,6 +1,6 @@
 {
   "repo": "cit-calck.rf",
-  "updated_at": "2026-11-14T07:52:29+03:00",
+  "updated_at": "2026-11-14T08:00:39+03:00",
   "source_file": "E:\\github\\cit-calck.rf\\plan.json",
   "tasks": [
     {
@@ -20,6 +20,16 @@
       "why": "ритм работ пока не ясен — нужен разговор с владельцем",
       "link": "",
       "source": "agent"
+    },
+    {
+      "id": "site-duplicate-review",
+      "title": "Сверить site и cit-calck.rf: подтвердить, что site лишний дубликат, и удалить репозиторий site",
+      "when": null,
+      "time": null,
+      "status": "backlog",
+      "why": "репозитории дублируют друг друга; удаление репо на GitHub выполняется вручную владельцем",
+      "link": "",
+      "source": "owner"
     }
   ]
 }
