@@ -1,6 +1,6 @@
 {
   "repo": "bardakov.rf",
-  "updated_at": "2026-11-14T07:40:31+03:00",
+  "updated_at": "2026-11-14T07:40:39+03:00",
   "source_file": "E:\\github\\bardakov.rf\\plan.json",
   "tasks": [
     {
@@ -32,6 +32,16 @@
       "why": "начинать после ревью rotator и отбора контента",
       "link": "docs/DESIGN.md",
       "source": "agent"
+    },
+    {
+      "id": "portfolio-certificates",
+      "title": "Собрать грамоты: личные - в одну папку, студентов - в другую; сделать электронный вариант портфолио",
+      "when": "2026-12-15",
+      "time": null,
+      "status": "todo",
+      "why": "электронное портфолио - часть личного сайта, грамоты разложены по папкам",
+      "link": "",
+      "source": "owner"
     }
   ]
 }
