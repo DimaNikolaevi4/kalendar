@@ -1,6 +1,6 @@
 {
   "repo": "bardakov.rf",
-  "updated_at": "2026-11-14T07:40:22+03:00",
+  "updated_at": "2026-11-14T07:40:31+03:00",
   "source_file": "E:\\github\\bardakov.rf\\plan.json",
   "tasks": [
     {
@@ -16,9 +16,9 @@
     {
       "id": "old-inventory",
       "title": "Пройтись по docs/old-inventory.md: что из старого контента переносим в статику",
-      "when": "2026-11-21",
+      "when": null,
       "time": null,
-      "status": "todo",
+      "status": "backlog",
       "why": "без отбора контента не спланировать этап миграции",
       "link": "docs/old-inventory.md",
       "source": "agent"
