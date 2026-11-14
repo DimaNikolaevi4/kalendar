@@ -1,0 +1,17 @@
+{
+  "repo": "demoexam-kip",
+  "updated_at": "2026-11-14T07:39:06+03:00",
+  "source_file": "E:\\github\\demoexam-kip\\plan.json",
+  "tasks": [
+    {
+      "id": "demoexam-monthly-plan",
+      "title": "Разработать помесячный план подготовки к ДЭ (ноябрь–май, до конца мая): какие навыки/элементы демо-экзамена отрабатываем по месяцам",
+      "when": "2026-11-27",
+      "time": null,
+      "status": "in-progress",
+      "why": "до ДЭ в конце мая ~6,5 месяцев — без помесячного ритма отработка развалится",
+      "link": "docs/prep-plan-draft.md",
+      "source": "owner"
+    }
+  ]
+}
