@@ -1,6 +1,6 @@
 {
   "repo": "site",
-  "updated_at": "2026-11-14T07:52:27+03:00",
+  "updated_at": "2026-11-14T08:00:48+03:00",
   "source_file": "E:\\github\\site\\plan.json",
   "tasks": [
     {
@@ -30,6 +30,16 @@
       "why": "рутина: уже обновлялся график 2025-26 → 2026-27",
       "link": "",
       "source": "agent"
+    },
+    {
+      "id": "site-winddown",
+      "title": "Свёртка: репо, вероятно, лишний дубликат cit-calck.rf - после сверки удалить (вручную владельцем)",
+      "when": null,
+      "time": null,
+      "status": "backlog",
+      "why": "дублирует cit-calck.rf, связи контента подтверждены коммитом фиксации ссылок на аудиты",
+      "link": "",
+      "source": "owner"
     }
   ]
 }
