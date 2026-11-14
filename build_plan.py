@@ -121,6 +121,8 @@ def github_link(repo: str, rel: str | None) -> str | None:
     Если remote не разобрать — None (ссылка останется сырой)."""
     if not rel:
         return None
+    from urllib.parse import quote
+    rel = quote(rel)
     src = GITHUB / repo
     try:
         url = subprocess.run(
