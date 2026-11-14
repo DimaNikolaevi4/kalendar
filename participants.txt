@@ -10,3 +10,10 @@ cit-calck.rf
 demoexam-kip
 bardakov.rf
 vol
+ii-monolit
+al
+avtosite
+AvtoOtvety-Seller
+moodle
+videosite
+al-agent
