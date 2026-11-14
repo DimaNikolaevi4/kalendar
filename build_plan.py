@@ -1,19 +1,23 @@
 # -*- coding: utf-8 -*-
 """build_plan.py — собрать plans/*.json в единый PLAN.md.
 
+Перед сборкой «скидывает» планы участников (список — participants.txt):
+для каждого репо запускается drop.py <REPO> --no-push, так что хаб всегда
+собирается из свежих plan.json. Сбои одного репо не ломают сборку.
+
 Секции (сверху вниз по важности):
   * Просрочено   — when < сегодня и статус не done/skipped (старейшие сверху);
   * Сегодня      — when == сегодня;
   * На неделю    — сегодня < when <= +7 дней;
   * Запланировано— позже (сворачиваемо, группировка по репо);
   * Backlog      — без даты или статус backlog;
-  * Сводка       — счётчики по репозиториям.
+  * Сводка       — счётчики по репозиториям и свежесть их планов.
 
-Сборка: задача Планировщика «planner build plan», ежедневно 07:25 МСК
+Сборка: задача Планировщика «Календарь build plan», ежедневно 07:25 МСК
 (утреннее окно 07:00-10:00 проверяется в bin/build_plan.ps1).
 
 Использование:
-  python build_plan.py [--push]
+  python build_plan.py [--push] [--no-drop]
 """
 from __future__ import annotations
 
@@ -29,6 +33,7 @@ GITHUB = HUB.parent
 MSK = timezone(timedelta(hours=3))
 OUT = HUB / "PLAN.md"
 PLANS = HUB / "plans"
+PARTNERS = HUB / "participants.txt"
 WEEK = 7
 STATUS_RU = {
     "scheduled": "запланировано",
@@ -49,6 +54,56 @@ def git(*args: str) -> str:
               f"{(r.stderr or r.stdout).strip()[-300:]}")
         sys.exit(1)
     return r.stdout
+
+
+def drop_partners() -> list[str]:
+    """drop.py <REPO> --no-push для каждого участника (см. participants.txt).
+
+    Пуш не нужен: build_plan.py --push в конце отправляет в GitHub и планы,
+    и PLAN.md одним пушем. Сбой одного репо не прерывает сборку.
+    """
+    if "--no-drop" in sys.argv or not PARTNERS.is_file():
+        return []
+    repos = [ln.strip() for ln in
+             PARTNERS.read_text(encoding="utf-8").splitlines()
+             if ln.strip() and not ln.strip().startswith("#")]
+    out: list[str] = []
+    for repo in repos:
+        r = subprocess.run(
+            [sys.executable, str(HUB / "drop.py"), repo, "--no-push"],
+            capture_output=True, text=True, encoding="utf-8",
+            errors="replace", timeout=120)
+        line = ((r.stdout or "").strip().splitlines() or [""])[-1]
+        if r.returncode != 0:
+            err = ((r.stderr or r.stdout or "").strip().splitlines() or ["?"])
+            line = f"FAIL {repo}: {err[-1][-200:]}"
+        out.append(line)
+    return out
+
+
+def plan_meta() -> dict[str, str]:
+    """repo -> updated_at из plans/*.json (свежесть плана репо)."""
+    out: dict[str, str] = {}
+    for p in sorted(PLANS.glob("*.json")):
+        try:
+            d = json.loads(p.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        out[d.get("repo") or p.stem] = (d.get("updated_at") or "")
+    return out
+
+
+def hub_url() -> str | None:
+    """Базовый URL хаба на GitHub (по remote.origin.url хаба)."""
+    try:
+        url = subprocess.run(
+            ["git", "-C", str(HUB), "config", "--get", "remote.origin.url"],
+            capture_output=True, text=True, encoding="utf-8",
+            errors="replace", timeout=15).stdout.strip()
+    except Exception:
+        return None
+    m = re.search(r"github\.com[/:]([^/]+)/([^/]+?)(?:\.git)?/?$", url)
+    return f"https://github.com/{m.group(1)}/{m.group(2)}" if m else None
 
 
 def load() -> list[tuple[str, dict]]:
@@ -88,6 +143,27 @@ def esc(s: str) -> str:
     return (s or "").replace("|", "\\|").replace("\n", " ")
 
 
+def fmt_date(s: str) -> str:
+    return f"{date.fromisoformat(s):%d.%m.%Y}" if s else "—"
+
+
+def fmt_updated(raw: str) -> str:
+    """updated_at ISO -> '13.11 21:03' (год опускаем — всегда текущий)."""
+    if not raw:
+        return "?"
+    try:
+        return f"{datetime.fromisoformat(raw):%d.%m %H:%M}"
+    except ValueError:
+        return raw[:16].replace("T", " ")
+
+
+def when_md(t: dict) -> str:
+    s = fmt_date(t.get("when") or "")
+    if t.get("when") and t.get("time"):
+        s += f" {t['time']}"
+    return s
+
+
 def link_md(repo: str, t: dict) -> str:
     raw = t.get("link") or ""
     if not raw:
@@ -99,13 +175,12 @@ def link_md(repo: str, t: dict) -> str:
 def row(repo: str, t: dict, today: date) -> str:
     when = t.get("when") or ""
     st = STATUS_RU.get(t.get("status") or "todo", t.get("status") or "")
-    link = f"[открыть]({t['link']})" if t.get("link") else "—"
     days = ""
     if when and t.get("status") in OPEN_STATUSES and date.fromisoformat(when) < today:
         days = f" (**+{(today - date.fromisoformat(when)).days} дн.**)"
     why = esc(t.get("why") or "")
     title = f"{esc(t.get('title') or '')}{days}"
-    return f"| {when or '—'} | {repo} | {title} | {st} | {why} | {link_md(repo, t)} |"
+    return f"| {when_md(t)} | {repo} | {title} | {st} | {why} | {link_md(repo, t)} |"
 
 
 def main() -> None:
@@ -113,6 +188,15 @@ def main() -> None:
     now = datetime.now(MSK)
     today = now.date()
     week_end = today + timedelta(days=WEEK)
+
+    dropped = drop_partners()
+    if dropped:
+        print("DROP:")
+        for line in dropped:
+            print(f"  {line}")
+
+    meta = plan_meta()
+    base = hub_url()
 
     overdue: list[tuple[date, str, dict]] = []
     today_rows: list[tuple[str, dict]] = []
@@ -142,8 +226,9 @@ def main() -> None:
             later.append((d, repo, t))
 
     overdue.sort(key=lambda x: x[0])
-    week.sort(key=lambda x: x[0])
-    later.sort(key=lambda x: x[0])
+    today_rows.sort(key=lambda x: (x[1].get("when") or "", x[1].get("time") or ""))
+    week.sort(key=lambda x: (x[0], x[2].get("time") or ""))
+    later.sort(key=lambda x: (x[0], x[2].get("time") or ""))
 
     lines: list[str] = []
     say = lines.append
@@ -172,11 +257,13 @@ def main() -> None:
     say(f"Открытых задач: {len(overdue) + len(today_rows) + len(week) + len(later) + len(backlog)}"
         f" · просрочено: **{len(overdue)}** · сделано: {done}")
     say("")
-    say("| репозиторий | всего | просрочено | сделано |")
-    say("|---|---|---|---|")
+    say("| репозиторий | план обновлён | всего | просрочено | сделано |")
+    say("|---|---|---|---|---|")
     for repo in sorted(per):
         d = per[repo]
-        say(f"| {repo} | {d['всего']} | {d['просрочено']} | {d['сделано']} |")
+        name = f"[{repo}]({base}/blob/main/plans/{repo}.json)" if base else repo
+        say(f"| {name} | {fmt_updated(meta.get(repo, ''))} | "
+            f"{d['всего']} | {d['просрочено']} | {d['сделано']} |")
 
     def section(title: str, rows: list) -> None:
         say("")
@@ -190,7 +277,7 @@ def main() -> None:
         for item in rows:
             if isinstance(item, tuple) and len(item) == 3 and isinstance(item[0], date):
                 d, repo, t = item
-                say(f"| {d:%d.%m.%Y} | {repo} | {esc(t.get('title') or '')} | "
+                say(f"| {when_md(t)} | {repo} | {esc(t.get('title') or '')} | "
                     f"{STATUS_RU.get(t.get('status') or 'todo', '')} | "
                     f"{esc(t.get('why') or '')} | {link_md(repo, t)} |")
             else:
@@ -211,7 +298,7 @@ def main() -> None:
         say("| когда | репо | задача | зачем |")
         say("|---|---|---|---|")
         for d, repo, t in later:
-            say(f"| {d:%d.%m.%Y} | {repo} | {esc(t.get('title') or '')} | "
+            say(f"| {when_md(t)} | {repo} | {esc(t.get('title') or '')} | "
                 f"{esc(t.get('why') or '')} |")
         say("")
         say("</details>")
