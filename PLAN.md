@@ -1,6 +1,6 @@
 # План по всем репозиториям `E:\github`
 
-> Собрано автоматически: **14.11.2026 08:01 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
+> Собрано автоматически: **14.11.2026 08:19 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
 > их «скидывают» репозитории скриптом `drop.py`; источник истины — `plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.
 
 Обновлено планов в хабе: **15** · задач всего: **243**
@@ -10,7 +10,7 @@
 | репозиторий | план обновлён | всего | просрочено | сделано |
 |---|---|---|---|---|
 | [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 14.11 08:01 | 1 | 0 | 0 |
-| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 14.11 08:01 | 11 | 0 | 0 |
+| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 14.11 08:19 | 11 | 0 | 0 |
 | [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 14.11 08:01 | 209 | 0 | 66 |
 | [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 14.11 08:01 | 3 | 0 | 0 |
 | [al](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/al.json) | 14.11 08:01 | 1 | 0 | 0 |
@@ -43,8 +43,8 @@
 | 15.11.2026 | MAX | [Забавное] Исчезновение | запланировано | выход из плана в 07:16 | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-13-random-AaBx64qmOCI.md) |
 | 15.11.2026 | MAX | [Забавное] Верни детей, бессовестная! | запланировано | выход из плана в 07:16 | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-13-random-AaBjKuaED2A.md) |
 | 15.11.2026 | MAX | [Забавное] Созерцатель | запланировано | выход из плана в 07:16 | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-13-random-AaBZQbBWJBk.md) |
+| 16.11.2026 | Konkurs | Тест Google Meet по методике Minsk/docs/04 - в понедельник 16.11, красная зона | в работе | беседа с Хайдарычем; если Meet не заработает - письмо в Минск или звонок; проверить возможность дистанта на других платформах | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/Minsk/docs/04_metodika-proverki-meet.md) |
 | 16.11.2026 | MAX | [Коты, кошки и котята] Подробности завтра | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-16-004-71-letnyaya-zhenschina-dokazala-chto-nikogda-ne-img1.md) |
-| 17.11.2026 | Konkurs | Тест Google Meet по методике Minsk/docs/04 (10.11 meet не отвечал — TLS/SNI-фильтрация) | в работе | если Meet не заработает к 18.11 — регистрироваться заочно | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/Minsk/docs/04_metodika-proverki-meet.md) |
 | 17.11.2026 | MAX | [Коты, кошки и котята] 71-летняя женщина доказала, что никогда не поздно получить татуировку | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-17-004-71-letnyaya-zhenschina-dokazala-chto-nikogda-ne-p1.md) |
 | 18.11.2026 | Konkurs | Уточнить у Несмияна: документ об участии (участнику и руководителю), сведения о руководителе в сборнике, срок сборника | сделать | нужно для портфолио; канал — методист или письмо | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/plan-raboty.md) |
 | 18.11.2026 | MAX | [Коты, кошки и котята] На фото — герои завтрашнего выпуска | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-18-005-8-samyh-krasivyh-dlinnosherstnyh-porod-koshek-img1.md) |
