@@ -1,6 +1,6 @@
 {
   "repo": "bardakov.rf",
-  "updated_at": "2026-11-14T07:38:37+03:00",
+  "updated_at": "2026-11-14T07:38:44+03:00",
   "source_file": "E:\\github\\bardakov.rf\\plan.json",
   "tasks": [
     {
@@ -11,6 +11,16 @@
       "status": "todo",
       "why": "последняя активность репо - секция rotator, её надо закрыть",
       "link": "docs/DESIGN.md",
+      "source": "agent"
+    },
+    {
+      "id": "old-inventory",
+      "title": "Пройтись по docs/old-inventory.md: что из старого контента переносим в статику",
+      "when": "2026-11-21",
+      "time": null,
+      "status": "todo",
+      "why": "без отбора контента не спланировать этап миграции",
+      "link": "docs/old-inventory.md",
       "source": "agent"
     }
   ]
