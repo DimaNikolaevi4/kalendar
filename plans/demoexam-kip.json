@@ -1,6 +1,6 @@
 {
   "repo": "demoexam-kip",
-  "updated_at": "2026-11-16T17:13:56+03:00",
+  "updated_at": "2026-11-16T17:14:08+03:00",
   "source_file": "E:\\github\\demoexam-kip\\plan.json",
   "tasks": [
     {
@@ -19,6 +19,16 @@
       "when": "2026-11-30",
       "time": null,
       "status": "in-progress",
+      "why": "",
+      "link": "docs/prep-plan-draft.md",
+      "source": "owner"
+    },
+    {
+      "id": "de-2026-12",
+      "title": "Декабрь - З1 на время 30 мин до автоматизма + вход в З2: разметка, DIN-рейки, установка оборудования в ШУ и на стене, маркировка. Контроль: срез З1 на время",
+      "when": "2026-12-31",
+      "time": null,
+      "status": "todo",
       "why": "",
       "link": "docs/prep-plan-draft.md",
       "source": "owner"
