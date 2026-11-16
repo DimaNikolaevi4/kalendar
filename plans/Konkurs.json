@@ -1,6 +1,6 @@
 {
   "repo": "Konkurs",
-  "updated_at": "2026-11-16T14:44:38+03:00",
+  "updated_at": "2026-11-16T14:46:10+03:00",
   "source_file": "E:\\github\\Konkurs\\plan.json",
   "tasks": [
     {
@@ -18,7 +18,7 @@
       "title": "Уточнить у Несмияна: документ об участии (участнику и руководителю), сведения о руководителе в сборнике, срок сборника",
       "when": "2026-11-18",
       "time": null,
-      "status": "todo",
+      "status": "skipped",
       "why": "нужно для портфолио; канал — методист или письмо",
       "link": "plan-raboty.md",
       "source": "owner"
