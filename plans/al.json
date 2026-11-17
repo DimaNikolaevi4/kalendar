@@ -1,6 +1,6 @@
 {
   "repo": "al",
-  "updated_at": "2026-11-17T12:22:55+03:00",
+  "updated_at": "2026-11-17T13:02:38+03:00",
   "source_file": "E:\\github\\al\\plan.json",
   "tasks": [
     {
@@ -11,16 +11,6 @@
       "status": "backlog",
       "why": "владелец: остальные репозитории не требуют срочных дел",
       "link": "",
-      "source": "owner"
-    },
-    {
-      "id": "al-monolit-7b",
-      "title": "Перевести базовую модель тьютора с Mistral Small 24B на ИИ-Монолит 7B",
-      "when": null,
-      "time": null,
-      "status": "todo",
-      "why": "импортозамещение: своя российская LLM линейки ИИ-Монолит; в CHECKLIST п. 8.3.1 стоит как планируемое обновление",
-      "link": "CHECKLIST.md",
       "source": "owner"
     }
   ]
