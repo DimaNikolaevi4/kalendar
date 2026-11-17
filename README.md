@@ -50,9 +50,13 @@ PLAN.md + пуш). Утреннее окно 07:00–10:00 проверяетс�
 
 ## Участники
 
-Список — `participants.txt` в корне хаба: MAX, Konkurs, site, YMK,
-cit-calck.rf (Veronika исключена по решению владельца). Новый участник =
-добавить строку в `participants.txt` и завести в его репо `plan.json`.
+Список — `participants.txt` в корне хаба: MAX, Konkurs, YMK, cit-calck.rf, demoexam-kip,
+bardakov.rf, vol, ii-monolit, avtosite, AvtoOtvety-Seller, moodle, videosite (12 репозиториев).
+Новый участник = добавить строку в `participants.txt` и завести в его репо `plan.json`.
+
+Вне календаря: `Veronika` (исключена владельцем 13.11.2026), `BPLA` (нет `plan.json`),
+`cross-autoposting` (приватный, задач нет). Удалены и потому убраны из списка: `site`
+(17.11.2026, дубль cit-calck.rf), `al` (код перенесён в `ii-monolit/products/ai-tutor`), `al-agent` (17.11.2026).
 
 ## Ручные команды
 
