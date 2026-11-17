@@ -1,29 +1,26 @@
 # План по всем репозиториям `E:\github`
 
-> Собрано автоматически: **17.11.2026 14:21 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
+> Собрано автоматически: **17.11.2026 14:22 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
 > их «скидывают» репозитории скриптом `drop.py`; источник истины — `plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.
 
-Обновлено планов в хабе: **15** · задач всего: **251**
+Обновлено планов в хабе: **12** · задач всего: **245**
 
-Открытых задач: 176 · просрочено: **0** · сделано: 74
+Открытых задач: 170 · просрочено: **0** · сделано: 74
 
 | репозиторий | план обновлён | всего | просрочено | сделано |
 |---|---|---|---|---|
-| [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 17.11 14:21 | 1 | 0 | 0 |
-| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 17.11 14:21 | 11 | 0 | 1 |
-| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 17.11 14:21 | 209 | 0 | 72 |
-| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 17.11 14:21 | 3 | 0 | 0 |
-| [al](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/al.json) | 17.11 13:02 | 1 | 0 | 0 |
-| [al-agent](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/al-agent.json) | 17.11 13:02 | 1 | 0 | 0 |
-| [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 17.11 14:21 | 1 | 0 | 0 |
-| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 17.11 14:21 | 4 | 0 | 0 |
-| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 17.11 14:21 | 3 | 0 | 1 |
-| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 17.11 14:21 | 8 | 0 | 0 |
-| [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 17.11 14:21 | 1 | 0 | 0 |
-| [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 17.11 14:21 | 1 | 0 | 0 |
-| [site](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/site.json) | 14.11 08:01 | 4 | 0 | 0 |
-| [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 17.11 14:21 | 1 | 0 | 0 |
-| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 17.11 14:21 | 2 | 0 | 0 |
+| [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 17.11 14:22 | 1 | 0 | 0 |
+| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 17.11 14:22 | 11 | 0 | 1 |
+| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 17.11 14:22 | 209 | 0 | 72 |
+| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 17.11 14:22 | 3 | 0 | 0 |
+| [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 17.11 14:22 | 1 | 0 | 0 |
+| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 17.11 14:22 | 4 | 0 | 0 |
+| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 17.11 14:22 | 3 | 0 | 1 |
+| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 17.11 14:22 | 8 | 0 | 0 |
+| [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 17.11 14:22 | 1 | 0 | 0 |
+| [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 17.11 14:22 | 1 | 0 | 0 |
+| [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 17.11 14:22 | 1 | 0 | 0 |
+| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 17.11 14:22 | 2 | 0 | 0 |
 
 ## Просрочено
 
@@ -43,9 +40,7 @@
 | 19.11.2026 | MAX | [Коты, кошки и котята] 8 самых красивых длинношерстных пород кошек | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-19-005-8-samyh-krasivyh-dlinnosherstnyh-porod-koshek-p1.md) |
 | 20.11.2026 | Konkurs | Проверить вход в аккаунт Google (форма без входа не открывается) | сделать | регистрация через Google-форму; если не открыть — писать Ульяновой | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/plan-raboty.md) |
 | 20.11.2026 | MAX | [Коты, кошки и котята] Герои завтрашнего поста | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-20-006-9-samyh-krasivyh-korotkosherstnyh-porod-koshek-img1.md) |
-| 20.11.2026 | site | Решить судьбу PR #124 (этап V2 проверен и подтверждён, слияние в main в этап не входило) | сделать | висящий PR теряет контекст и конфликтует с будущими правками main | [открыть](CHECKLIST.md) |
 | 21.11.2026 | MAX | [Коты, кошки и котята] 9 самых красивых короткошерстных пород кошек | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-21-006-9-samyh-krasivyh-korotkosherstnyh-porod-koshek-p1.md) |
-| 21.11.2026 | site | Сверить статус MENTOR_REMOVAL_CHECKLIST: что снято, что осталось | сделать | чеклист открыт — не видно, завершена ли операция | [открыть](MENTOR_REMOVAL_CHECKLIST.md) |
 | 23.11.2026 | MAX | [Коты, кошки и котята] Бенгальский кот — леопард в вашем доме | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-23-007-bengalskiy-kot-leopard-v-vashem-dome-p1.md) |
 | 24.11.2026 | Konkurs | Регистрация Минск: Google-форма + статья «№ 5. Чагин Павел Павлович.docx»; форма участия (онлайн/заочно) — решение в момент регистрации | сделать | дедлайн 24.11 включительно, позднее = вылет | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/plan-raboty.md) |
 | 24.11.2026 | MAX | [Коты, кошки и котята] На фото — герои завтрашней статьи | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-24-003-6-unikalnyh-porod-koshek-img1.md) |
@@ -208,8 +203,6 @@
 
 | репо | задача | зачем | ссылка |
 |---|---|---|---|
-| al-agent | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
-| al | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | AvtoOtvety-Seller | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | avtosite | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | bardakov.rf | Ревью секции rotator: довести до финального вида | последняя активность репо - секция rotator, её надо закрыть | [открыть](https://github.com/DimaNikolaevi4/bardakov.rf/blob/main/docs/DESIGN.md) |
@@ -222,8 +215,6 @@
 | MAX | [Забавное] Верни детей, бессовестная! | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-13-random-AaBjKuaED2A.md) |
 | MAX | [Забавное] Исчезновение | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-13-random-AaBx64qmOCI.md) |
 | moodle | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
-| site | Регулярное обновление расписания/графика учебного процесса по мере изменений | рутина: уже обновлялся график 2025-26 → 2026-27 | — |
-| site | Свёртка: репо, вероятно, лишний дубликат cit-calck.rf - после сверки удалить (вручную владельцем) | дублирует cit-calck.rf, связи контента подтверждены коммитом фиксации ссылок на аудиты | — |
 | videosite | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | vol | Выработать методику правки паспортов по итогам готового паспорта (бонус: ускорит остальные ~9 паспортов) | методика - вторичный результат; станет очевидной после первого пройденного паспорта | — |
 | YMK | Следующий пакет КТП после МДК 05.02 (группа и МДК — по РП) | генератор и валидатор готовы, очередь наполнения открыта | [открыть](https://github.com/DimaNikolaevi4/YMK/blob/main/logic.md) |
