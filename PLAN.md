@@ -1,29 +1,29 @@
 # План по всем репозиториям `E:\github`
 
-> Собрано автоматически: **17.11.2026 12:22 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
+> Собрано автоматически: **17.11.2026 13:02 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
 > их «скидывают» репозитории скриптом `drop.py`; источник истины — `plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.
 
-Обновлено планов в хабе: **15** · задач всего: **252**
+Обновлено планов в хабе: **15** · задач всего: **251**
 
-Открытых задач: 184 · просрочено: **7** · сделано: 67
+Открытых задач: 183 · просрочено: **7** · сделано: 67
 
 | репозиторий | план обновлён | всего | просрочено | сделано |
 |---|---|---|---|---|
-| [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 17.11 12:22 | 1 | 0 | 0 |
-| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 17.11 12:22 | 11 | 1 | 0 |
-| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 17.11 12:22 | 209 | 6 | 66 |
-| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 17.11 12:22 | 3 | 0 | 0 |
-| [al](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/al.json) | 17.11 12:22 | 2 | 0 | 0 |
-| [al-agent](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/al-agent.json) | 17.11 12:22 | 1 | 0 | 0 |
-| [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 17.11 12:22 | 1 | 0 | 0 |
-| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 17.11 12:22 | 4 | 0 | 0 |
-| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 17.11 12:22 | 3 | 0 | 1 |
-| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 17.11 12:22 | 8 | 0 | 0 |
-| [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 17.11 12:22 | 1 | 0 | 0 |
-| [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 17.11 12:22 | 1 | 0 | 0 |
+| [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 17.11 13:02 | 1 | 0 | 0 |
+| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 17.11 13:02 | 11 | 1 | 0 |
+| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 17.11 13:02 | 209 | 6 | 66 |
+| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 17.11 13:02 | 3 | 0 | 0 |
+| [al](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/al.json) | 17.11 13:02 | 1 | 0 | 0 |
+| [al-agent](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/al-agent.json) | 17.11 13:02 | 1 | 0 | 0 |
+| [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 17.11 13:02 | 1 | 0 | 0 |
+| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 17.11 13:02 | 4 | 0 | 0 |
+| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 17.11 13:02 | 3 | 0 | 1 |
+| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 17.11 13:02 | 8 | 0 | 0 |
+| [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 17.11 13:02 | 1 | 0 | 0 |
+| [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 17.11 13:02 | 1 | 0 | 0 |
 | [site](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/site.json) | 14.11 08:01 | 4 | 0 | 0 |
-| [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 17.11 12:22 | 1 | 0 | 0 |
-| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 17.11 12:22 | 2 | 0 | 0 |
+| [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 17.11 13:02 | 1 | 0 | 0 |
+| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 17.11 13:02 | 2 | 0 | 0 |
 
 ## Просрочено
 
@@ -219,7 +219,6 @@
 |---|---|---|---|
 | al-agent | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | al | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
-| al | Перевести базовую модель тьютора с Mistral Small 24B на ИИ-Монолит 7B | импортозамещение: своя российская LLM линейки ИИ-Монолит; в CHECKLIST п. 8.3.1 стоит как планируемое обновление | [открыть](https://github.com/DimaNikolaevi4/al/blob/main/CHECKLIST.md) |
 | AvtoOtvety-Seller | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | avtosite | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | bardakov.rf | Ревью секции rotator: довести до финального вида | последняя активность репо - секция rotator, её надо закрыть | [открыть](https://github.com/DimaNikolaevi4/bardakov.rf/blob/main/docs/DESIGN.md) |
