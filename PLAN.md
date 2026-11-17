@@ -1,52 +1,43 @@
 # План по всем репозиториям `E:\github`
 
-> Собрано автоматически: **17.11.2026 13:32 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
+> Собрано автоматически: **17.11.2026 14:21 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
 > их «скидывают» репозитории скриптом `drop.py`; источник истины — `plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.
 
 Обновлено планов в хабе: **15** · задач всего: **251**
 
-Открытых задач: 183 · просрочено: **7** · сделано: 67
+Открытых задач: 176 · просрочено: **0** · сделано: 74
 
 | репозиторий | план обновлён | всего | просрочено | сделано |
 |---|---|---|---|---|
-| [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 17.11 13:32 | 1 | 0 | 0 |
-| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 17.11 13:32 | 11 | 1 | 0 |
-| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 17.11 13:32 | 209 | 6 | 66 |
-| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 17.11 13:32 | 3 | 0 | 0 |
+| [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 17.11 14:21 | 1 | 0 | 0 |
+| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 17.11 14:21 | 11 | 0 | 1 |
+| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 17.11 14:21 | 209 | 0 | 72 |
+| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 17.11 14:21 | 3 | 0 | 0 |
 | [al](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/al.json) | 17.11 13:02 | 1 | 0 | 0 |
 | [al-agent](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/al-agent.json) | 17.11 13:02 | 1 | 0 | 0 |
-| [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 17.11 13:32 | 1 | 0 | 0 |
-| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 17.11 13:32 | 4 | 0 | 0 |
-| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 17.11 13:32 | 3 | 0 | 1 |
-| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 17.11 13:32 | 8 | 0 | 0 |
-| [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 17.11 13:32 | 1 | 0 | 0 |
-| [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 17.11 13:32 | 1 | 0 | 0 |
+| [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 17.11 14:21 | 1 | 0 | 0 |
+| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 17.11 14:21 | 4 | 0 | 0 |
+| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 17.11 14:21 | 3 | 0 | 1 |
+| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 17.11 14:21 | 8 | 0 | 0 |
+| [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 17.11 14:21 | 1 | 0 | 0 |
+| [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 17.11 14:21 | 1 | 0 | 0 |
 | [site](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/site.json) | 14.11 08:01 | 4 | 0 | 0 |
-| [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 17.11 13:32 | 1 | 0 | 0 |
-| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 17.11 13:32 | 2 | 0 | 0 |
+| [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 17.11 14:21 | 1 | 0 | 0 |
+| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 17.11 14:21 | 2 | 0 | 0 |
 
 ## Просрочено
 
-| когда | репо | задача | статус | зачем | ссылка |
-|---|---|---|---|---|---|
-| 14.11.2026 | MAX | [Коты, кошки и котята] 6 пород самых дружелюбных кошек | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-14-002-6-porod-samyh-druzhelyubnyh-koshek-p1.md) |
-| 14.11.2026 | MAX | [Новости технологий ИИ, нейросетей и инноваций] OpenAI за контроль чипов, цветной Kindle, литровый ИИ-сервер | запланировано | публикация по Планировщику, канал «Новости технологий ИИ, нейросетей и инноваций» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/na100/posts/2026-11-14-pyaterka-tehnologij.md) |
-| 15.11.2026 | MAX | [Забавное] Исчезновение | запланировано | выход из плана в 07:16 | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-13-random-AaBx64qmOCI.md) |
-| 15.11.2026 | MAX | [Забавное] Верни детей, бессовестная! | запланировано | выход из плана в 07:16 | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-13-random-AaBjKuaED2A.md) |
-| 15.11.2026 | MAX | [Забавное] Созерцатель | запланировано | выход из плана в 07:16 | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-13-random-AaBZQbBWJBk.md) |
-| 16.11.2026 | Konkurs | Тест Google Meet по методике Minsk/docs/04 - в понедельник 16.11, красная зона | в работе | беседа с Хайдарычем; если Meet не заработает - письмо в Минск или звонок; проверить возможность дистанта на других платформах | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/Minsk/docs/04_metodika-proverki-meet.md) |
-| 16.11.2026 | MAX | [Коты, кошки и котята] Подробности завтра | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-16-004-71-letnyaya-zhenschina-dokazala-chto-nikogda-ne-img1.md) |
+пусто
 
 ## Сегодня
 
-| когда | репо | задача | статус | зачем | ссылка |
-|---|---|---|---|---|---|
-| 17.11.2026 | MAX | [Коты, кошки и котята] 71-летняя женщина доказала, что никогда не поздно получить татуировку | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-17-004-71-letnyaya-zhenschina-dokazala-chto-nikogda-ne-p1.md) |
+пусто
 
 ## На неделю (до 24.11.2026)
 
 | когда | репо | задача | статус | зачем | ссылка |
 |---|---|---|---|---|---|
+| 18.11.2026 | MAX | [Забавное] Созерцатель | запланировано | черновик не опубликован (план был на 15.11) — перенесён на 18.11 | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-13-random-AaBZQbBWJBk.md) |
 | 18.11.2026 | MAX | [Коты, кошки и котята] На фото — герои завтрашнего выпуска | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-18-005-8-samyh-krasivyh-dlinnosherstnyh-porod-koshek-img1.md) |
 | 18.11.2026 | YMK | Создать перечни практических для мастеров и тематической аттестации на чётные семестры - красная зона | в работе | чётные семестры: готовы МДК 03.02 С-21/С-22, МДК 05.02 М-21 и МДК 01.02 М-21 (все 4 сем., КДЗ); осталось: КИП-31 ПМ.03 (6 сем., РП только .doc), билеты ПА.02/ПА.03/ПА.05, ОТП-41 (нет РП) | [открыть](https://github.com/DimaNikolaevi4/YMK/blob/main/docs/%D0%A0%D0%95%D0%95%D0%A1%D0%A2%D0%A0_%D0%9F%D0%95%D0%A0%D0%95%D0%A7%D0%9D%D0%95%D0%99_2026-2027.md) |
 | 19.11.2026 | MAX | [Коты, кошки и котята] 8 самых красивых длинношерстных пород кошек | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-19-005-8-samyh-krasivyh-dlinnosherstnyh-porod-koshek-p1.md) |
