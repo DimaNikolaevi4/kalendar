@@ -4,7 +4,6 @@
 # Комментарии — строки, начинающиеся с #.
 MAX
 Konkurs
-site
 YMK
 cit-calck.rf
 demoexam-kip
