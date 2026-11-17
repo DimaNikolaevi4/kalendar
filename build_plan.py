@@ -81,10 +81,29 @@ def drop_partners() -> list[str]:
     return out
 
 
+def participants() -> set[str]:
+    """Имена репозиториев-участников из participants.txt (нижний регистр)."""
+    try:
+        raw = PARTNERS.read_text(encoding="utf-8").splitlines()
+    except OSError:
+        return set()
+    return {ln.strip().lower() for ln in raw if ln.strip() and not ln.strip().startswith("#")}
+
+
+def valid_plan(p) -> bool:
+    """План учитывается, только если репозиторий есть в участниках и папка на диске."""
+    repo = p.stem
+    if repo.lower() not in participants():
+        return False
+    return (GITHUB / repo).is_dir()
+
+
 def plan_meta() -> dict[str, str]:
     """repo -> updated_at из plans/*.json (свежесть плана репо)."""
     out: dict[str, str] = {}
     for p in sorted(PLANS.glob("*.json")):
+        if not valid_plan(p):
+            continue
         try:
             d = json.loads(p.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):
@@ -109,6 +128,9 @@ def hub_url() -> str | None:
 def load() -> list[tuple[str, dict]]:
     rows: list[tuple[str, dict]] = []
     for p in sorted(PLANS.glob("*.json")):
+        if not valid_plan(p):
+            print(f"  SKIP plans/{p.name}: репозитория нет среди участников или нет папки — план игнорируется")
+            continue
         d = json.loads(p.read_text(encoding="utf-8"))
         repo = d.get("repo") or p.stem
         for t in d.get("tasks") or []:
@@ -252,7 +274,8 @@ def main() -> None:
             d["просрочено"] += 1
 
     say("")
-    say(f"Обновлено планов в хабе: **{len(list(PLANS.glob('*.json')))}** · "
+    valid_count = sum(1 for _p in PLANS.glob('*.json') if valid_plan(_p))
+    say(f"Обновлено планов в хабе: **{valid_count}** · "
         f"задач всего: **{sum(d['всего'] for d in per.values())}**")
 
     say("")
