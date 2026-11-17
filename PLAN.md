@@ -1,6 +1,6 @@
 # План по всем репозиториям `E:\github`
 
-> Собрано автоматически: **17.11.2026 18:41 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
+> Собрано автоматически: **17.11.2026 18:43 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
 > их «скидывают» репозитории скриптом `drop.py`; источник истины — `plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.
 
 Обновлено планов в хабе: **12** · задач всего: **244**
@@ -9,18 +9,18 @@
 
 | репозиторий | план обновлён | всего | просрочено | сделано |
 |---|---|---|---|---|
-| [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 17.11 18:41 | 1 | 0 | 0 |
-| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 17.11 18:41 | 12 | 0 | 1 |
-| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 17.11 18:41 | 206 | 0 | 67 |
-| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 17.11 18:41 | 4 | 0 | 0 |
-| [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 17.11 18:41 | 1 | 0 | 0 |
-| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 17.11 18:41 | 4 | 0 | 0 |
-| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 17.11 18:41 | 3 | 0 | 1 |
-| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 17.11 18:41 | 8 | 0 | 0 |
-| [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 17.11 18:41 | 1 | 0 | 0 |
-| [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 17.11 18:41 | 1 | 0 | 0 |
-| [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 17.11 18:41 | 1 | 0 | 0 |
-| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 17.11 18:41 | 2 | 0 | 0 |
+| [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 17.11 18:43 | 1 | 0 | 0 |
+| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 17.11 18:43 | 12 | 0 | 1 |
+| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 17.11 18:43 | 206 | 0 | 67 |
+| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 17.11 18:43 | 4 | 0 | 0 |
+| [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 17.11 18:43 | 1 | 0 | 0 |
+| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 17.11 18:43 | 4 | 0 | 0 |
+| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 17.11 18:43 | 3 | 0 | 1 |
+| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 17.11 18:43 | 8 | 0 | 0 |
+| [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 17.11 18:43 | 1 | 0 | 0 |
+| [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 17.11 18:43 | 1 | 0 | 0 |
+| [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 17.11 18:43 | 1 | 0 | 0 |
+| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 17.11 18:43 | 2 | 0 | 0 |
 
 ## Просрочено
 
@@ -45,7 +45,7 @@
 | 20.11.2026 | vol | Подготовить ОДИН готовый паспорт программы по новой редакции (18494 Слесарь КИПиА) - красная зона, работа от 4 дней | в работе | готовый паспорт - к 20.11 (указание владельца 17.11); работа идет ежедневно 18-20.11, задача присутствует во всех днях плана; 25.11 - только запас, не срок | [открыть](https://github.com/DimaNikolaevi4/vol/blob/main/%D0%A1%D0%BB%D0%B5%D1%81%D0%B0%D1%80%D1%8C%20%D0%BF%D0%BE%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE-%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%BC%20%D0%BF%D1%80%D0%B8%D0%B1%D0%BE%D1%80%D0%B0%D0%BC%20%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5/%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%B2%D0%B0%D0%BB%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8%2018494%20%D0%A1%D0%BB%D0%B5%D1%81%D0%B0%D1%80%D1%8C%20%D0%9A%D0%98%D0%9F%D0%B8%D0%90/00.%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%9F%D0%9E_%D0%9A%D0%9F%D0%9A_%D0%9A%D0%98%D0%9F.docx) |
 | 21.11.2026 | MAX | [Коты, кошки и котята] 9 самых красивых короткошерстных пород кошек | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-21-006-9-samyh-krasivyh-korotkosherstnyh-porod-koshek-p1.md) |
 | 22.11.2026 | MAX | [AI] ИИ-инструменты для программирования: что попробовать бесплатно | запланировано | публикация по Планировщику, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-22-ii-instrumenty-dlya-programmirovaniya.md) |
-| 23.11.2026 | Konkurs | Выяснить даты практики группы КИП-31 в начале декабря (02–04.12) — влияет на форму участия Минска | сделать | если Садчиков В. В. (докладчик Минска, ориентировочно) 02–04.12 будет на практике — дистанционное онлайн-выступление невозможно, регистрироваться «заочно»; узнать до регистрации 24.11; заодно влияет на готовность Морозова Д. С. по статье АЧИИ | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/plan-raboty.md) |
+| 23.11.2026 | Konkurs | Выяснить даты практики группы КИП-31 в начале декабря (02–04.12) — влияет на форму участия Минска | сделать | задача владельца (расписаний в репозиториях нет): если Садчиков В. В. (докладчик Минска, ориентировочно) 02–04.12 будет на практике — дистанционное онлайн-выступление невозможно, регистрироваться «заочно»; узнать до регистрации 24.11; заодно влияет на готовность Морозова Д. С. по статье АЧИИ | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/plan-raboty.md) |
 | 23.11.2026 | MAX | [Коты, кошки и котята] Бенгальский кот — леопард в вашем доме | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-23-007-bengalskiy-kot-leopard-v-vashem-dome-p1.md) |
 | 23.11.2026 | MAX | [AI] Нейросеть без регистрации: проверили, кто пускает без входа | запланировано | публикация по Планировщику, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-23-neyroset-bez-registracii-proverili-kto-puskaet.md) |
 | 24.11.2026 | Konkurs | Регистрация Минск: Google-форма + статья «№ 5. Чагин Павел Павлович.docx»; форма участия (онлайн/заочно) — решение в момент регистрации | сделать | дедлайн 24.11 включительно, позднее = вылет; тема сменена владельцем 17.11 ОРИЕНТИРОВОЧНО: «Интеллектуальный тьютор на базе открытых языковых моделей для практико-ориентированного обучения в СПО» (ИИ-тьютор «Гравитация», материалы в E:\конкурсы\Гравитация), секция № 2; студент-докладчик ОРИЕНТИРОВОЧНО — Садчиков Владимир Викторович, 3 курс КИП-31; статья и файл переименовываются после подтверждения; форма (онлайн/заочно) — с учётом практики КИП-31 (см. kip31-practice-dates) | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/plan-raboty.md) |
