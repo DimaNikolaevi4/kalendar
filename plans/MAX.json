@@ -1,6 +1,6 @@
 {
   "repo": "MAX",
-  "updated_at": "2026-11-18T18:30:15+03:00",
+  "updated_at": "2026-11-18T18:39:20+03:00",
   "source_file": "E:\\github\\MAX\\plan.json",
   "tasks": [
     {
@@ -2192,6 +2192,16 @@
       "why": "Оркестрация kalendar↔MAX: синхронизация по команде, отчёт в календарь, публикация catden 20:00 МСК по графику",
       "link": "roles/blogger/config/catden-automation.json",
       "source": "kalendar"
+    },
+    {
+      "id": "orch-zabava-replenish-1911",
+      "title": "Пополнить партию zabava (порог 7 дней, останется 6)",
+      "when": "2026-11-19",
+      "time": null,
+      "status": "todo",
+      "why": "19.11 останется 6 дней автопубликации (20–25.11) — ниже порога 7; без пополнения после 25.11 канал встанет",
+      "link": "roles/blogger/config/zabava-automation.json",
+      "source": "orchestrator"
     }
   ]
 }
