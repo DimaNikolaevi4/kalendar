@@ -1,6 +1,6 @@
 {
   "repo": "MAX",
-  "updated_at": "2026-11-18T07:20:11+03:00",
+  "updated_at": "2026-11-18T09:24:52+03:00",
   "source_file": "E:\\github\\MAX\\plan.json",
   "tasks": [
     {
@@ -674,13 +674,23 @@
       "source": "auto"
     },
     {
-      "id": "max-2026-11-18-005-8-samyh-krasivyh-dlinnosherstnyh-porod-koshek-img1",
+      "id": "max-2026-11-19-005-8-samyh-krasivyh-dlinnosherstnyh-porod-koshek-img1",
       "title": "[Коты, кошки и котята] На фото — герои завтрашнего выпуска",
-      "when": "2026-11-18",
+      "when": "2026-11-19",
       "time": null,
       "status": "scheduled",
       "why": "публикация по Планировщику, канал «Коты, кошки и котята»",
-      "link": "roles/blogger/channels/catden/posts/2026-11-18-005-8-samyh-krasivyh-dlinnosherstnyh-porod-koshek-img1.md",
+      "link": "roles/blogger/channels/catden/posts/2026-11-19-005-8-samyh-krasivyh-dlinnosherstnyh-porod-koshek-img1.md",
+      "source": "auto"
+    },
+    {
+      "id": "max-2026-11-18-pyaterka-tehnologij",
+      "title": "[Новости технологий ИИ, нейросетей и инноваций] GPT-6.2 дешевле Claude, Apple лежит, Nvidia уходит из Китая",
+      "when": "2026-11-18",
+      "time": null,
+      "status": "done",
+      "why": "",
+      "link": "roles/blogger/channels/na100/posts/2026-11-18-pyaterka-tehnologij.md",
       "source": "auto"
     },
     {
@@ -688,8 +698,8 @@
       "title": "[Забавное] Созерцатель",
       "when": "2026-11-18",
       "time": null,
-      "status": "scheduled",
-      "why": "публикация по Планировщику, канал «Забавное»",
+      "status": "done",
+      "why": "",
       "link": "roles/blogger/channels/zabava/posts/2026-11-18-random-AaBZQbBWJBk.md",
       "source": "auto"
     },
@@ -771,6 +781,16 @@
       "status": "scheduled",
       "why": "публикация по Планировщику, канал «Коты, кошки и котята»",
       "link": "roles/blogger/channels/catden/posts/2026-11-21-006-9-samyh-krasivyh-korotkosherstnyh-porod-koshek-p1.md",
+      "source": "auto"
+    },
+    {
+      "id": "max-2026-11-21-novostnaya-za-nedelyu",
+      "title": "[AI] Новостная за неделю: Nvidia без Хуанга, чиповые гайки и подорожавшая память",
+      "when": "2026-11-21",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «AI»",
+      "link": "roles/blogger/channels/ainow/posts/2026-11-21-novostnaya-za-nedelyu.md",
       "source": "auto"
     },
     {
@@ -2131,26 +2151,6 @@
       "status": "scheduled",
       "why": "публикация по Планировщику, канал «Коты, кошки и котята»",
       "link": "roles/blogger/channels/catden/posts/2027-06-19-078-eto-pushistoe-chudo-img1.md",
-      "source": "auto"
-    },
-    {
-      "id": "max-2026-11-18-pyaterka-tehnologij",
-      "title": "[Новости технологий ИИ, нейросетей и инноваций] GPT-6.2 дешевле Claude, Apple лежит, Nvidia уходит из Китая",
-      "when": null,
-      "time": null,
-      "status": "backlog",
-      "why": "черновик, ждёт «ок» владельца",
-      "link": "roles/blogger/channels/na100/posts/2026-11-18-pyaterka-tehnologij.md",
-      "source": "auto"
-    },
-    {
-      "id": "max-2026-11-21-novostnaya-za-nedelyu",
-      "title": "[AI] Новостная за неделю: Nvidia без Хуанга, чиповые гайки и подорожавшая память",
-      "when": null,
-      "time": null,
-      "status": "backlog",
-      "why": "черновик, ждёт «ок» владельца",
-      "link": "roles/blogger/channels/ainow/posts/2026-11-21-novostnaya-za-nedelyu.md",
       "source": "auto"
     }
   ]
