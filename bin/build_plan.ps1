@@ -3,12 +3,12 @@
 # «Только утром»: StartWhenAvailable может догнать пропущенный запуск при
 # включении ПК днём — вне утреннего окна (07:00-10:00) ничего не делаем.
 $ErrorActionPreference = 'Stop'
-Set-Location -LiteralPath 'E:\github\Календарь'
+Set-Location -LiteralPath 'E:\github\kalendar'
 $OutputEncoding = [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding $false
 $env:PYTHONIOENCODING = 'utf-8'
 
 New-Item -ItemType Directory -Force -Path 'logs' | Out-Null
-$log = 'E:\github\Календарь\logs\build_plan.console.log'
+$log = 'E:\github\kalendar\logs\build_plan.console.log'
 
 $now = Get-Date
 if ($now.Hour -lt 7 -or $now.Hour -ge 10) {
@@ -17,6 +17,6 @@ if ($now.Hour -lt 7 -or $now.Hour -ge 10) {
     exit 0
 }
 
-& py 'E:\github\Календарь\build_plan.py' --push 2>&1 |
+& py 'E:\github\kalendar\build_plan.py' --push 2>&1 |
     Out-File -Append -Encoding UTF8 $log
 exit $LASTEXITCODE

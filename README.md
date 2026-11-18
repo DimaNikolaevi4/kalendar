@@ -10,7 +10,7 @@
    (хранится в git самого репо, правится автоматикой или агентом/владельцем).
    Задачи не живут отдельно в календаре — они записаны в самих репо.
 2. **Запись задачи (обратный ход)** — `task.py`:
-   `py E:\github\Календарь\task.py <REPO> add --title "..." --when 2026-11-18`
+   `py E:\github\kalendar\task.py <REPO> add --title "..." --when 2026-11-18`
    — пишет задачу в `plan.json` репо, коммитит, пушит и скидывает в хаб.
    Так же: `status <id> --set done`, `remove <id>`, `list`.
 3. **Авто-сборка** — `build_plan.py` перед рендером сам делает
@@ -97,10 +97,10 @@ bardakov.rf, vol, ii-monolit, avtosite, AvtoOtvety-Seller, moodle, videosite (12
 ## Ручные команды
 
 ```powershell
-py E:\github\Календарь\build_plan.py        # drop всех участников + пересборка PLAN.md
-py E:\github\Календарь\build_plan.py --push # то же + коммит + пуш
-py E:\github\Календарь\build_plan.py --no-drop --push # пересборка без обновления планов
-py E:\github\Календарь\drop.py MAX          # скинуть план одного репо (с пушем)
-py E:\github\Календарь\sync.py              # оркестрация по дню недели (МСК): чтение команд, отчёт/действия, см. SYNC.md
-py E:\github\Календарь\sync.py --force fri --post-status  # пример: пятничный прогон + статус в «календарь»
+py E:\github\kalendar\build_plan.py        # drop всех участников + пересборка PLAN.md
+py E:\github\kalendar\build_plan.py --push # то же + коммит + пуш
+py E:\github\kalendar\build_plan.py --no-drop --push # пересборка без обновления планов
+py E:\github\kalendar\drop.py MAX          # скинуть план одного репо (с пушем)
+py E:\github\kalendar\sync.py              # оркестрация по дню недели (МСК): чтение команд, отчёт/действия, см. SYNC.md
+py E:\github\kalendar\sync.py --force fri --post-status  # пример: пятничный прогон + статус в «календарь»
 ```
