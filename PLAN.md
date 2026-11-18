@@ -1,17 +1,17 @@
 # План по всем репозиториям `E:\github`
 
-> Собрано автоматически: **18.11.2026 14:07 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
+> Собрано автоматически: **18.11.2026 14:33 МСК**, задача «Календарь build plan» (07:25). Источники — `plans/*.json`,
 > их «скидывают» репозитории скриптом `drop.py`; источник истины — `plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.
 
-Обновлено планов в хабе: **12** · задач всего: **256**
+Обновлено планов в хабе: **12** · задач всего: **257**
 
-Открытых задач: 184 · просрочено: **0** · сделано: 71
+Открытых задач: 185 · просрочено: **0** · сделано: 71
 
 | репозиторий | план обновлён | всего | просрочено | сделано |
 |---|---|---|---|---|
 | [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 18.11 09:25 | 1 | 0 | 0 |
 | [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 18.11 09:49 | 13 | 0 | 1 |
-| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 18.11 14:07 | 218 | 0 | 69 |
+| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 18.11 14:33 | 219 | 0 | 69 |
 | [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 18.11 09:24 | 3 | 0 | 0 |
 | [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 18.11 09:25 | 1 | 0 | 0 |
 | [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 18.11 09:24 | 4 | 0 | 0 |
@@ -229,6 +229,7 @@
 | MAX | [Коты, кошки и котята] Кот, ёлка и последняя ночь года | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-12-31-holiday-ny-eve-p1.md) |
 | MAX | [Коты, кошки и котята] Первое утро нового года | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2027-01-01-holiday-ny-day-p1.md) |
 | MAX | [Коты, кошки и котята] Рождественский уют на четырёх лапах | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2027-01-07-holiday-xmas-p1.md) |
+| MAX | [catden] Служебная команда автопилота: четверг медиа (11д), пятница стилистика+слои 1-3+превью 10д в календарь | Оркестрация kalendar↔MAX: синхронизация по команде, отчёт в календарь, публикация catden 20:00 МСК по графику | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/config/catden-automation.json) |
 | moodle | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | videosite | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | vol | Выработать методику правки паспортов по итогам готового паспорта (бонус: ускорит остальные ~9 паспортов) | методика - вторичный результат; станет очевидной после первого пройденного паспорта | — |
