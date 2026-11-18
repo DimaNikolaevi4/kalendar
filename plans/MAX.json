@@ -1,6 +1,6 @@
 {
   "repo": "MAX",
-  "updated_at": "2026-11-18T14:33:05+03:00",
+  "updated_at": "2026-11-18T18:30:15+03:00",
   "source_file": "E:\\github\\MAX\\plan.json",
   "tasks": [
     {
@@ -698,8 +698,8 @@
       "title": "[AI] Свой ИИ-бот без программиста: 5 путей",
       "when": "2026-11-18",
       "time": null,
-      "status": "scheduled",
-      "why": "публикация по Планировщику, канал «AI»",
+      "status": "done",
+      "why": "",
       "link": "roles/blogger/channels/ainow/posts/2026-11-18-svoy-ii-bot-bez-programmista-5-putey.md",
       "source": "auto"
     },
