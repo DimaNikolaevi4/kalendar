@@ -1,6 +1,6 @@
 {
   "repo": "MAX",
-  "updated_at": "2026-11-17T18:45:11+03:00",
+  "updated_at": "2026-11-18T06:40:14+03:00",
   "source_file": "E:\\github\\MAX\\plan.json",
   "tasks": [
     {
@@ -684,6 +684,16 @@
       "source": "auto"
     },
     {
+      "id": "max-2026-11-18-random-AaBZQbBWJBk",
+      "title": "[Забавное] Созерцатель",
+      "when": "2026-11-18",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «Забавное»",
+      "link": "roles/blogger/channels/zabava/posts/2026-11-18-random-AaBZQbBWJBk.md",
+      "source": "auto"
+    },
+    {
       "id": "max-2026-11-18-svoy-ii-bot-bez-programmista-5-putey",
       "title": "[AI] Свой ИИ-бот без программиста: 5 путей",
       "when": "2026-11-18",
@@ -714,6 +724,16 @@
       "source": "auto"
     },
     {
+      "id": "max-2026-11-19-random-20995460762336",
+      "title": "[Забавное] Подпишись на Забавное — улыбка в ленте без лишних слов 🎬",
+      "when": "2026-11-19",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «Забавное»",
+      "link": "roles/blogger/channels/zabava/posts/2026-11-19-random-20995460762336.md",
+      "source": "auto"
+    },
+    {
       "id": "max-2026-11-20-006-9-samyh-krasivyh-korotkosherstnyh-porod-koshek-img1",
       "title": "[Коты, кошки и котята] Герои завтрашнего поста",
       "when": "2026-11-20",
@@ -734,6 +754,16 @@
       "source": "auto"
     },
     {
+      "id": "max-2026-11-20-random-19763690080989",
+      "title": "[Забавное] Подпишись на канал Забавное — ролики, которые хочется пересматривать 🎬",
+      "when": "2026-11-20",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «Забавное»",
+      "link": "roles/blogger/channels/zabava/posts/2026-11-20-random-19763690080989.md",
+      "source": "auto"
+    },
+    {
       "id": "max-2026-11-21-006-9-samyh-krasivyh-korotkosherstnyh-porod-koshek-p1",
       "title": "[Коты, кошки и котята] 9 самых красивых короткошерстных пород кошек",
       "when": "2026-11-21",
@@ -744,6 +774,16 @@
       "source": "auto"
     },
     {
+      "id": "max-2026-11-21-random-20758878292603",
+      "title": "[Забавное] Подпишись на канал Забавное — забавные ролики для хорошего настроения 🎬",
+      "when": "2026-11-21",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «Забавное»",
+      "link": "roles/blogger/channels/zabava/posts/2026-11-21-random-20758878292603.md",
+      "source": "auto"
+    },
+    {
       "id": "max-2026-11-22-ii-instrumenty-dlya-programmirovaniya",
       "title": "[AI] ИИ-инструменты для программирования: что попробовать бесплатно",
       "when": "2026-11-22",
@@ -751,6 +791,16 @@
       "status": "scheduled",
       "why": "публикация по Планировщику, канал «AI»",
       "link": "roles/blogger/channels/ainow/posts/2026-11-22-ii-instrumenty-dlya-programmirovaniya.md",
+      "source": "auto"
+    },
+    {
+      "id": "max-2026-11-22-random-19750541265660",
+      "title": "[Забавное] Подпишись на Забавное — если любите, когда смешно 🎬",
+      "when": "2026-11-22",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «Забавное»",
+      "link": "roles/blogger/channels/zabava/posts/2026-11-22-random-19750541265660.md",
       "source": "auto"
     },
     {
@@ -774,6 +824,16 @@
       "source": "auto"
     },
     {
+      "id": "max-2026-11-23-random-19265728809544",
+      "title": "[Забавное] Подпишись на Забавное, чтобы не пропустить свежие ролики 🎬",
+      "when": "2026-11-23",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «Забавное»",
+      "link": "roles/blogger/channels/zabava/posts/2026-11-23-random-19265728809544.md",
+      "source": "auto"
+    },
+    {
       "id": "max-2026-11-24-003-6-unikalnyh-porod-koshek-img1",
       "title": "[Коты, кошки и котята] На фото — герои завтрашней статьи",
       "when": "2026-11-24",
@@ -784,6 +844,16 @@
       "source": "auto"
     },
     {
+      "id": "max-2026-11-24-random-20758878095995",
+      "title": "[Забавное] Подпишись на Забавное — и порция юмора всегда под рукой 🎬",
+      "when": "2026-11-24",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «Забавное»",
+      "link": "roles/blogger/channels/zabava/posts/2026-11-24-random-20758878095995.md",
+      "source": "auto"
+    },
+    {
       "id": "max-2026-11-25-003-6-unikalnyh-porod-koshek-p1",
       "title": "[Коты, кошки и котята] 6 уникальных пород кошек",
       "when": "2026-11-25",
@@ -791,6 +861,16 @@
       "status": "scheduled",
       "why": "публикация по Планировщику, канал «Коты, кошки и котята»",
       "link": "roles/blogger/channels/catden/posts/2026-11-25-003-6-unikalnyh-porod-koshek-p1.md",
+      "source": "auto"
+    },
+    {
+      "id": "max-2026-11-25-random-18636718475791",
+      "title": "[Забавное] Подпишись на канал Забавное — здесь можно улыбнуться 🎬",
+      "when": "2026-11-25",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «Забавное»",
+      "link": "roles/blogger/channels/zabava/posts/2026-11-25-random-18636718475791.md",
       "source": "auto"
     },
     {
@@ -2054,13 +2134,13 @@
       "source": "auto"
     },
     {
-      "id": "max-2026-11-13-random-AaBZQbBWJBk",
-      "title": "[Забавное] Созерцатель",
+      "id": "max-2026-11-21-novostnaya-za-nedelyu",
+      "title": "[AI] Новостная за неделю: Nvidia без Хуанга, чиповые гайки и подорожавшая память",
       "when": null,
       "time": null,
       "status": "backlog",
       "why": "черновик, ждёт «ок» владельца",
-      "link": "roles/blogger/channels/zabava/posts/2026-11-13-random-AaBZQbBWJBk.md",
+      "link": "roles/blogger/channels/ainow/posts/2026-11-21-novostnaya-za-nedelyu.md",
       "source": "auto"
     }
   ]
