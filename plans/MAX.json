@@ -1,6 +1,6 @@
 {
   "repo": "MAX",
-  "updated_at": "2026-11-19T21:01:28+03:00",
+  "updated_at": "2026-11-19T21:02:14+03:00",
   "source_file": "E:\\github\\MAX\\plan.json",
   "tasks": [
     {
@@ -2355,7 +2355,7 @@
     },
     {
       "id": "max-2026-11-20-opencode-besplatnyy-gaid-po-neyrosetyam",
-      "title": "[AI] 💻 OpenCode и бесплатные нейросети: подробный гайд по выживанию в лимитах",
+      "title": "[AI] 💻 OpenCode Zen: честный обзор бесплатных нейросетей и стратегия выживания",
       "when": "2026-11-20",
       "time": null,
       "status": "scheduled",
