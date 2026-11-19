@@ -1,6 +1,6 @@
 {
   "repo": "MAX",
-  "updated_at": "2026-11-19T16:57:23+03:00",
+  "updated_at": "2026-11-19T16:59:06+03:00",
   "source_file": "E:\\github\\MAX\\plan.json",
   "tasks": [
     {
@@ -718,8 +718,8 @@
       "title": "[AI] Презентации с ИИ: что работает из России",
       "when": "2026-11-19",
       "time": null,
-      "status": "scheduled",
-      "why": "публикация по Планировщику, канал «AI»",
+      "status": "done",
+      "why": "",
       "link": "roles/blogger/channels/ainow/posts/2026-11-19-prezentacii-s-ii-chto-rabotaet-iz-rossii.md",
       "source": "auto"
     },
@@ -924,6 +924,16 @@
       "source": "auto"
     },
     {
+      "id": "max-2026-11-26-random-AaB6aufjRI0",
+      "title": "[Забавное] В буфете произошла драка — невозмутимость буфетчицы восхищает",
+      "when": "2026-11-26",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «Забавное»",
+      "link": "roles/blogger/channels/zabava/posts/2026-11-26-random-AaB6aufjRI0.md",
+      "source": "auto"
+    },
+    {
       "id": "max-2026-11-27-007-bengalskiy-kot-leopard-v-vashem-dome-p1",
       "title": "[Коты, кошки и котята] Бенгальский кот — леопард в вашем доме",
       "when": "2026-11-27",
@@ -931,6 +941,16 @@
       "status": "scheduled",
       "why": "публикация по Планировщику, канал «Коты, кошки и котята»",
       "link": "roles/blogger/channels/catden/posts/2026-11-27-007-bengalskiy-kot-leopard-v-vashem-dome-p1.md",
+      "source": "auto"
+    },
+    {
+      "id": "max-2026-11-27-random-AaFoeGnCRXU",
+      "title": "[Забавное] Интересная рыба",
+      "when": "2026-11-27",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «Забавное»",
+      "link": "roles/blogger/channels/zabava/posts/2026-11-27-random-AaFoeGnCRXU.md",
       "source": "auto"
     },
     {
@@ -954,6 +974,16 @@
       "source": "auto"
     },
     {
+      "id": "max-2026-11-28-random-AZ-4SS26T7w",
+      "title": "[Забавное] Панда с малышами",
+      "when": "2026-11-28",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «Забавное»",
+      "link": "roles/blogger/channels/zabava/posts/2026-11-28-random-AZ-4SS26T7w.md",
+      "source": "auto"
+    },
+    {
       "id": "max-2026-11-29-011-vlasti-ssha-vydelyat-15-milliona-dollarov-dlya-p-p1",
       "title": "[Коты, кошки и котята] Власти США выделят 1,5 миллиона долларов для подсчета диких кошек в Вашингтоне",
       "when": "2026-11-29",
@@ -961,6 +991,16 @@
       "status": "scheduled",
       "why": "публикация по Планировщику, канал «Коты, кошки и котята»",
       "link": "roles/blogger/channels/catden/posts/2026-11-29-011-vlasti-ssha-vydelyat-15-milliona-dollarov-dlya-p-p1.md",
+      "source": "auto"
+    },
+    {
+      "id": "max-2026-11-29-random-AaFYPAPuU5k",
+      "title": "[Забавное] Юный пастух 1 день на работе",
+      "when": "2026-11-29",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «Забавное»",
+      "link": "roles/blogger/channels/zabava/posts/2026-11-29-random-AaFYPAPuU5k.md",
       "source": "auto"
     },
     {
@@ -974,6 +1014,16 @@
       "source": "auto"
     },
     {
+      "id": "max-2026-11-30-random-AZ_aYrh4HL0",
+      "title": "[Забавное] Мама с медвежатами на рыбалке",
+      "when": "2026-11-30",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «Забавное»",
+      "link": "roles/blogger/channels/zabava/posts/2026-11-30-random-AZ_aYrh4HL0.md",
+      "source": "auto"
+    },
+    {
       "id": "max-2026-12-01-012-vozniknovenie-porody-sibirskih-koshek-p1",
       "title": "[Коты, кошки и котята] Возникновение породы сибирских кошек",
       "when": "2026-12-01",
@@ -984,6 +1034,16 @@
       "source": "auto"
     },
     {
+      "id": "max-2026-12-01-random-AaDpA01fcXY",
+      "title": "[Забавное] Маленький аллигатор",
+      "when": "2026-12-01",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «Забавное»",
+      "link": "roles/blogger/channels/zabava/posts/2026-12-01-random-AaDpA01fcXY.md",
+      "source": "auto"
+    },
+    {
       "id": "max-2026-12-02-012-vozniknovenie-porody-sibirskih-koshek-img1",
       "title": "[Коты, кошки и котята] На фото — герои завтрашнего выпуска",
       "when": "2026-12-02",
@@ -991,6 +1051,16 @@
       "status": "scheduled",
       "why": "публикация по Планировщику, канал «Коты, кошки и котята»",
       "link": "roles/blogger/channels/catden/posts/2026-12-02-012-vozniknovenie-porody-sibirskih-koshek-img1.md",
+      "source": "auto"
+    },
+    {
+      "id": "max-2026-12-02-random-AaEawDEQOxo",
+      "title": "[Забавное] Подари перо",
+      "when": "2026-12-02",
+      "time": null,
+      "status": "scheduled",
+      "why": "публикация по Планировщику, канал «Забавное»",
+      "link": "roles/blogger/channels/zabava/posts/2026-12-02-random-AaEawDEQOxo.md",
       "source": "auto"
     },
     {
