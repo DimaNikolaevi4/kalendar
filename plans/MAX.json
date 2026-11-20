@@ -1,6 +1,6 @@
 {
   "repo": "MAX",
-  "updated_at": "2026-11-20T14:55:23+03:00",
+  "updated_at": "2026-11-20T14:55:38+03:00",
   "source_file": "E:\\github\\MAX\\plan.json",
   "tasks": [
     {
@@ -2330,6 +2330,16 @@
       "time": null,
       "status": "backlog",
       "why": "черновики готовы: docs/articles/habr-avtopilot-kanala.md и vc-korotkaya-versiya.md; нужна вычитка владельца и правка фактов от первого лица",
+      "link": "docs/articles/README.md",
+      "source": "orchestrator"
+    },
+    {
+      "id": "orch-habr-article-publish",
+      "title": "Опубликовать статью «Автопилот каналов в MAX» на Хабре/VC и анонсировать в канале AI",
+      "when": "2026-12-08",
+      "time": null,
+      "status": "backlog",
+      "why": "публикация от имени владельца; после выхода — анонс в канале AI со ссылкой и вопросом; ссылку на канал в тексте Хабра не давать (самореклама)",
       "link": "docs/articles/README.md",
       "source": "orchestrator"
     }
