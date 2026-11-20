@@ -1,18 +1,18 @@
 # План по всем репозиториям `E:\github`
 
-> Собрано автоматически: **20.11.2026 14:55 МСК**, задача «kalendar build plan» (07:25). Источники — `plans/*.json`,
+> Собрано автоматически: **20.11.2026 15:14 МСК**, задача «kalendar build plan» (07:25). Источники — `plans/*.json`,
 > их «скидывают» репозитории скриптом `drop.py`; источник истины — `plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.
 
-Обновлено планов в хабе: **13** · задач всего: **278**
+Обновлено планов в хабе: **13** · задач всего: **280**
 
-Открытых задач: 198 · просрочено: **2** · сделано: 80
+Открытых задач: 200 · просрочено: **2** · сделано: 80
 
 | репозиторий | план обновлён | всего | просрочено | сделано |
 |---|---|---|---|---|
 | [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 20.11 14:52 | 1 | 0 | 0 |
 | [BPLA](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/BPLA.json) | 20.11 14:52 | 1 | 0 | 1 |
 | [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 20.11 14:51 | 16 | 0 | 3 |
-| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 20.11 14:55 | 234 | 2 | 73 |
+| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 20.11 15:14 | 236 | 2 | 73 |
 | [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 20.11 14:51 | 4 | 0 | 1 |
 | [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 20.11 14:52 | 1 | 0 | 0 |
 | [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 20.11 14:51 | 4 | 0 | 0 |
@@ -46,6 +46,7 @@
 | 21.11.2026 | MAX | [Коты, кошки и котята] Боги среди нас: абиссинская кошка | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-21-008-bogi-sredi-nas-p1.md) |
 | 21.11.2026 | MAX | [AI] Что такое промт: 6 шаблонов на каждый день | запланировано | публикация по Планировщику, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-21-chto-takoe-promt-6-shablonov.md) |
 | 21.11.2026 | MAX | [Забавное] Подпишись на канал Забавное — забавные ролики для хорошего настроения 🎬 | запланировано | публикация по Планировщику, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-21-random-20758878292603.md) |
+| 21.11.2026 | MAX | Канал administrator: переименовать в «Каналы в MAX: рост и автопилот» и обновить описание | сделать | перезапуск канала: тексты названия/описания готовы в docs/methodology/admin-channel-strategy.md; ник не меняем (в MAX не гарантирован) | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/docs/methodology/admin-channel-strategy.md) |
 | 22.11.2026 | MAX | [AI] Новостная за неделю: Nvidia без Хуанга, чиповые гайки и подорожавшая память | запланировано | публикация по Планировщику, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-22-novostnaya-za-nedelyu.md) |
 | 22.11.2026 | MAX | [Забавное] Подпишись на Забавное — если любите, когда смешно 🎬 | запланировано | публикация по Планировщику, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-22-random-19750541265660.md) |
 | 23.11.2026 | Konkurs | Практика КИП-31 23.11–19.12: КИП-31 недоступны — Минск онлайн с докладчиком из группы М-21 | сделать | пометка 18.11 (уточнение владельца): Чагин из КИП-31 не может быть на связи 03–04.12; онлайн-форма сохраняется, докладчика берём из группы М-21. При регистрации 20–23.11 указываем «дистанционно в режиме онлайн» | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/plan-raboty.md) |
@@ -59,6 +60,7 @@
 | 24.11.2026 | MAX | [Коты, кошки и котята] 6 уникальных пород кошек | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-24-003-6-unikalnyh-porod-koshek-p1.md) |
 | 24.11.2026 | MAX | [AI] Нейросеть без регистрации: проверили, кто пускает без входа | запланировано | публикация по Планировщику, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-24-neyroset-bez-registracii-proverili-kto-puskaet.md) |
 | 24.11.2026 | MAX | [Забавное] Подпишись на Забавное — и порция юмора всегда под рукой 🎬 | запланировано | публикация по Планировщику, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-24-random-20758878095995.md) |
+| 24.11.2026 | MAX | Канал administrator: опубликовать пилот «Цифра недели» (вторник, 09:00) | сделать | черновик готов: posts/2026-11-20-cifra-nedeli.md, обложка 16:9 в local/admin/; нужен прогон media_aspect + публикация в 09:00 | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/docs/methodology/admin-channel-strategy.md) |
 | 25.11.2026 | Konkurs | Подтвердить тему/студента/направление для АЧИИ «День энергетика»: «Охладительная установка на элементе Пельтье», Морозов Д. С. | в работе | тема и студент определены владельцем 17.11 ОРИЕНТИРОВОЧНО: «Охладительная установка на элементе Пельтье» (готовый диплом Самойленко/Алисова в E:\конкурсы\Диплом охладительная установка…), студент Морозов Данил Сергеевич, 3 курс КИП-31; к 25.11 подтвердить окончательно и выбрать направление; вариант «расчёт ЗИП» отклонён владельцем (несерьёзная тема) | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/plan-raboty.md) |
 | 25.11.2026 | MAX | [Коты, кошки и котята] Герои завтрашней статьи — на фото | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-25-006-9-samyh-krasivyh-korotkosherstnyh-porod-koshek-img1.md) |
 | 25.11.2026 | MAX | [Забавное] Подпишись на канал Забавное — здесь можно улыбнуться 🎬 | запланировано | публикация по Планировщику, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-25-random-18636718475791.md) |
