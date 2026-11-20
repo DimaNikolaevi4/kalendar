@@ -1,11 +1,11 @@
 # План по всем репозиториям `E:\github`
 
-> Собрано автоматически: **20.11.2026 09:16 МСК**, задача «kalendar build plan» (07:25). Источники — `plans/*.json`,
+> Собрано автоматически: **20.11.2026 09:30 МСК**, задача «kalendar build plan» (07:25). Источники — `plans/*.json`,
 > их «скидывают» репозитории скриптом `drop.py`; источник истины — `plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.
 
 Обновлено планов в хабе: **13** · задач всего: **272**
 
-Открытых задач: 194 · просрочено: **4** · сделано: 78
+Открытых задач: 193 · просрочено: **3** · сделано: 79
 
 | репозиторий | план обновлён | всего | просрочено | сделано |
 |---|---|---|---|---|
@@ -21,7 +21,7 @@
 | [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 20.11 07:25 | 1 | 0 | 0 |
 | [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 20.11 07:25 | 1 | 0 | 0 |
 | [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 20.11 07:25 | 1 | 0 | 0 |
-| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 20.11 07:25 | 3 | 1 | 0 |
+| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 20.11 09:30 | 3 | 0 | 1 |
 
 ## Просрочено
 
@@ -30,7 +30,6 @@
 | 19.11.2026 | MAX | [Коты, кошки и котята] 8 самых красивых длинношерстных пород кошек | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-19-005-8-samyh-krasivyh-dlinnosherstnyh-porod-koshek-p1.md) |
 | 19.11.2026 | MAX | [AI] Презентации с ИИ: что работает из России | запланировано | публикация по Планировщику, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-19-prezentacii-s-ii-chto-rabotaet-iz-rossii.md) |
 | 19.11.2026 | MAX | [Забавное] Подпишись на Забавное — улыбка в ленте без лишних слов 🎬 | запланировано | публикация по Планировщику, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-19-random-20995460762336.md) |
-| 19.11.2026 | vol | Финальная подготовка паспорта 18494 к сдаче - последний рабочий день перед сроком 20.11 | в работе | указание владельца 18.11: 19.11 - финальная подготовка паспорта; работа идет в ОТДЕЛЬНОЙ сессии (объемная задача), из хаб-сессии - только контроль. Срок сдачи - 20.11: день №3 из трех (18-20.11) | [открыть](https://github.com/DimaNikolaevi4/vol/blob/main/%D0%A1%D0%BB%D0%B5%D1%81%D0%B0%D1%80%D1%8C%20%D0%BF%D0%BE%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE-%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%BC%20%D0%BF%D1%80%D0%B8%D0%B1%D0%BE%D1%80%D0%B0%D0%BC%20%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5/%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%B2%D0%B0%D0%BB%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8%2018494%20%D0%A1%D0%BB%D0%B5%D1%81%D0%B0%D1%80%D1%8C%20%D0%9A%D0%98%D0%9F%D0%B8%D0%90/00.%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%9F%D0%9E_%D0%9A%D0%9F%D0%9A_%D0%9A%D0%98%D0%9F.docx) |
 
 ## Сегодня
 
