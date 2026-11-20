@@ -1,6 +1,6 @@
 # План по всем репозиториям `E:\github`
 
-> Собрано автоматически: **20.11.2026 14:52 МСК**, задача «kalendar build plan» (07:25). Источники — `plans/*.json`,
+> Собрано автоматически: **20.11.2026 14:55 МСК**, задача «kalendar build plan» (07:25). Источники — `plans/*.json`,
 > их «скидывают» репозитории скриптом `drop.py`; источник истины — `plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.
 
 Обновлено планов в хабе: **13** · задач всего: **278**
@@ -12,7 +12,7 @@
 | [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 20.11 14:52 | 1 | 0 | 0 |
 | [BPLA](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/BPLA.json) | 20.11 14:52 | 1 | 0 | 1 |
 | [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 20.11 14:51 | 16 | 0 | 3 |
-| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 20.11 14:51 | 234 | 2 | 73 |
+| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 20.11 14:55 | 234 | 2 | 73 |
 | [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 20.11 14:51 | 4 | 0 | 1 |
 | [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 20.11 14:52 | 1 | 0 | 0 |
 | [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 20.11 14:51 | 4 | 0 | 0 |
@@ -233,8 +233,6 @@
 | cit-calck.rf | Определить регулярные дела репозитория (что вообще планировать в календаре) | ритм работ пока не ясен — нужен разговор с владельцем | — |
 | ii-monolit | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | Konkurs | Резервные темы будущих конференций: Пельтье, расчёт ЗИП, LMS Moodle, AI-репетитор «Гравитация» | по необходимости | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/plan-raboty.md) |
-| MAX | Статья «Автопилот каналов в MAX»: прочитать черновик и утвердить | черновики готовы: docs/articles/habr-avtopilot-kanala.md и vc-korotkaya-versiya.md; нужна вычитка владельца и правка фактов от первого лица | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/docs/articles/README.md) |
-| MAX | Опубликовать статью на Хабре/VC и анонсировать в канале AI | публикация от имени владельца; после выхода — пост-анонс в канале AI со ссылкой и вопросом; ссылку на канал в тексте Хабра не давать (самореклама) | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/docs/articles/README.md) |
 | MAX | [Коты, кошки и котята] Кот, ёлка и последняя ночь года | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-12-31-holiday-ny-eve-p1.md) |
 | MAX | [Коты, кошки и котята] Первое утро нового года | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2027-01-01-holiday-ny-day-p1.md) |
 | MAX | [Коты, кошки и котята] Рождественский уют на четырёх лапах | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2027-01-07-holiday-xmas-p1.md) |
@@ -245,6 +243,8 @@
 | MAX | [AI] Три фильтра, которые ловят ИИ-текст | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-12-06-tri-filtra-kotorye-lovyat-ii-tekst.md) |
 | MAX | [AI] Из 570 заголовков — пять новостей | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-12-13-iz-570-zagolovkov-pyat-novostey.md) |
 | MAX | [catden] Служебная команда автопилота: четверг медиа (11д), пятница стилистика+слои 1-3+превью 10д в календарь | Оркестрация kalendar↔MAX: синхронизация по команде, отчёт в календарь, публикация catden 20:00 МСК по графику | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/config/catden-automation.json) |
+| MAX | Статья «Автопилот каналов в MAX»: прочитать черновик и утвердить | черновики готовы: docs/articles/habr-avtopilot-kanala.md и vc-korotkaya-versiya.md; нужна вычитка владельца и правка фактов от первого лица | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/docs/articles/README.md) |
+| MAX | Опубликовать статью «Автопилот каналов в MAX» на Хабре/VC и анонсировать в канале AI | публикация от имени владельца; после выхода — анонс в канале AI со ссылкой и вопросом; ссылку на канал в тексте Хабра не давать (самореклама) | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/docs/articles/README.md) |
 | moodle | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | videosite | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | vol | Выработать методику правки паспортов по итогам готового паспорта (бонус: ускорит остальные ~9 паспортов) | методика - вторичный результат; станет очевидной после первого пройденного паспорта | — |
