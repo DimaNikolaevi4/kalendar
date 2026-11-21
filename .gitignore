@@ -1,3 +1,10 @@
 __pycache__/
 logs/
 local/
+
+# Локальные профили машин и секреты
+machine_profile.json
+.env
+local/tokens.json
+local/*.pem
+*.local
