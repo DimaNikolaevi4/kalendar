@@ -1,17 +1,17 @@
 # ==========================================
-# ТРИГГЕР ДЛЯ КОМАНДЫ: "смотри E:\github\kalendar"
+# ТРИГГЕР: "смотри E:\github\kalendar"
 # ==========================================
-## ЖЕСТКИЕ ПРАВИЛА (нарушение = провал задачи)
-1. ЗАПРЕЩЕНО использовать Linux-синтаксис: &&, ||, head, tail, echo, 2>/dev/null. ТОЛЬКО PowerShell 5.1 (; или новые строки).
-2. ЗАПРЕЩЕНО писать вступления, выводы, объяснения. Только результат.
-3. ЗАПРЕЩЕНО создавать временные файлы (.ps1) в C:\Users\Public\ или AppData\Temp. Все команды выполняй НАПРЯМУЮ в консоли.
-4. При вставке переменной перед двоеточием ОБЯЗАТЕЛЬНО используй ${имя_переменной} или конкатенацию.
+## ЖЕСТКИЕ ПРАВИЛА (нарушение = провал)
+1. ЗАПРЕЩЕНО использовать Linux-синтаксис (&&, ||, head, echo). Только PowerShell 5.1.
+2. ЗАПРЕЩЕНО писать внутренний монолог, объяснения или "процесс отладки". Выдай ТОЛЬКО финальный отчет.
+3. ЗАПРЕЩЕНО паниковать из-за артефактов отображения кириллицы в выводе консоли. Команда `ConvertFrom-Json` читает UTF-8 файлы корректно. Игнорируй визуальные артефакты консоли.
+4. Если репозитория нет локально, просто запиши "ОТСУТСТВУЕТ" и иди дальше. Не пытайся клонировать его в этом скрипте.
 
 ## АЛГОРИТМ (выполни молча, выдай ТОЛЬКО финальный отчет)
 ### ШАГ А. Чтение паспорта
-Прочитай файл E:\github\kalendar\docs\ai-orchestration\machine_profile.json. Запомни root_dir и repos_to_sync.
+Прочитай `E:\github\kalendar\docs\ai-orchestration\machine_profile.json`.
 
-### ШАГ Б. Синхронизация и сбор задач (выполни этот скрипт целиком):
+### ШАГ Б. Выполнение скрипта (НЕ ИЗМЕНЯЙ ЕГО, НЕ ДОБАВЛЯЙ ПРОВЕРКИ):
 ```powershell
 $profile = Get-Content "E:\github\kalendar\docs\ai-orchestration\machine_profile.json" | ConvertFrom-Json
 $syncResults = @()
@@ -31,7 +31,7 @@ foreach ($repo in $profile.repos_to_sync) {
 }
 $tasks = @()
 foreach ($repo in $profile.repos_to_sync) {
-    $planFile = "E:\github\kalendar\plans\$repo.json"
+    $planFile = "E:\github\kalendar/plans/$repo.json"
     if (Test-Path $planFile) {
         $json = Get-Content $planFile -Raw | ConvertFrom-Json
         foreach ($task in $json.tasks) {
@@ -50,5 +50,6 @@ Write-Output "✅ **СИНХРОНИЗАЦИЯ:** $syncReport
 | :--- | :--- | :--- | :--- |"
 foreach ($t in $tasks) { Write-Output "| $($t.Date) | $($t.Title) | $($t.Status) | $($t.Repo) |" }
 ```
-### ШАГ В. Финальный отчет
+
+### ШАГ В. Вывод
 Выведи ТОЛЬКО результат выполнения скрипта выше. Никаких слов до или после.
