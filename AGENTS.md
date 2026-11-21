@@ -80,7 +80,7 @@ foreach ($g in ($tasks | Group-Object Date | Sort-Object Name)) {
 
 ```powershell
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-py E:\github\kalendar\bin\ainow_audit.py --days 2 --apply
+py E:\github\kalendar\bin\ainow_audit.py --days 2 --apply --channel-fix
 ```
 
 Скрипт `bin/ainow_audit.py` делает всё сам:
@@ -98,7 +98,8 @@ py E:\github\kalendar\bin\ainow_audit.py --days 2 --apply
    литеральные `**` / `###` / `|` в тексте, нет CTA-строки «Подписывайтесь»,
    нет вопроса в конце. Исправление — PUT
    `/messages?chat_id=..&message_id=..` с `{"text": <архив>, "format": "markdown"}`:
-   так сохраняются просмотры, ссылка и вложение.
+   так сохраняются просмотры, ссылка и вложение. Флаг `--channel-fix` разрешает
+   эту отправку; без него скрипт правит только архив.
 6. **Отчёт** — ровно в формате ниже. Если правок нет, строка «нет».
 
 ### Что скрипт НЕ делает и почему
