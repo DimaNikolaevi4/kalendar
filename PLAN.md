@@ -1,27 +1,27 @@
 # План по всем репозиториям `E:\github`
 
-> Собрано автоматически: **22.11.2026 09:14 МСК**, задача «kalendar build plan» (07:25). Источники — `plans/*.json`,
+> Собрано автоматически: **22.11.2026 09:34 МСК**, задача «kalendar build plan» (07:25). Источники — `plans/*.json`,
 > их «скидывают» репозитории скриптом `drop.py`; источник истины — `plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.
 
-Обновлено планов в хабе: **13** · задач всего: **282**
+Обновлено планов в хабе: **13** · задач всего: **285**
 
-Открытых задач: 198 · просрочено: **9** · сделано: 84
+Открытых задач: 196 · просрочено: **8** · сделано: 89
 
 | репозиторий | план обновлён | всего | просрочено | сделано |
 |---|---|---|---|---|
-| [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 22.11 09:15 | 1 | 0 | 0 |
-| [BPLA](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/BPLA.json) | 22.11 09:15 | 1 | 0 | 1 |
-| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 22.11 09:14 | 16 | 1 | 3 |
-| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 22.11 09:14 | 238 | 7 | 77 |
-| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 22.11 09:14 | 4 | 0 | 1 |
-| [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 22.11 09:15 | 1 | 0 | 0 |
-| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 22.11 09:15 | 4 | 0 | 0 |
-| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 22.11 09:14 | 3 | 0 | 1 |
-| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 22.11 09:14 | 8 | 0 | 0 |
-| [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 22.11 09:15 | 1 | 0 | 0 |
-| [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 22.11 09:15 | 1 | 0 | 0 |
-| [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 22.11 09:15 | 1 | 0 | 0 |
-| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 22.11 09:15 | 3 | 1 | 1 |
+| [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 22.11 09:34 | 1 | 0 | 0 |
+| [BPLA](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/BPLA.json) | 22.11 09:34 | 1 | 0 | 1 |
+| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 22.11 09:34 | 16 | 1 | 3 |
+| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 22.11 09:34 | 241 | 6 | 82 |
+| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 22.11 09:34 | 4 | 0 | 1 |
+| [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 22.11 09:34 | 1 | 0 | 0 |
+| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 22.11 09:34 | 4 | 0 | 0 |
+| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 22.11 09:34 | 3 | 0 | 1 |
+| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 22.11 09:34 | 8 | 0 | 0 |
+| [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 22.11 09:34 | 1 | 0 | 0 |
+| [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 22.11 09:34 | 1 | 0 | 0 |
+| [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 22.11 09:34 | 1 | 0 | 0 |
+| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 22.11 09:34 | 3 | 1 | 1 |
 
 ## Просрочено
 
@@ -34,14 +34,12 @@
 | 20.11.2026 | MAX | [Забавное] Подпишись на канал Забавное — ролики, которые хочется пересматривать 🎬 | запланировано | публикация по Планировщику, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-20-random-19763690080989.md) |
 | 20.11.2026 | vol | Подготовить ОДИН готовый паспорт программы по новой редакции (18494 Слесарь КИПиА) - красная зона, работа от 4 дней | в работе | готовый паспорт - к 20.11 (указание владельца 17.11); работа идет ежедневно 18-20.11, задача присутствует во всех днях плана; 25.11 - только запас, не срок. 18.11: работа ведется в ОТДЕЛЬНОЙ сессии (объемная задача); из хаб-сессии - только информирование. Прогресс дня №1 (18.11): инвентаризация untracked-материала vol выполнена (323 пути: norma/, scripts/, audits/, docs/, 3 папки профессий, worklog), ключевые доки прочитаны (СХЕМА_ПРОГРАММЫ.md, audits 00-ЗАКОНОМЕРНОСТИ и 00-ЧЕК_ЛИСТ); фиксация материала коммитами - еще не сделана, впереди | [открыть](https://github.com/DimaNikolaevi4/vol/blob/main/%D0%A1%D0%BB%D0%B5%D1%81%D0%B0%D1%80%D1%8C%20%D0%BF%D0%BE%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE-%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%BC%20%D0%BF%D1%80%D0%B8%D0%B1%D0%BE%D1%80%D0%B0%D0%BC%20%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5/%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%B2%D0%B0%D0%BB%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8%2018494%20%D0%A1%D0%BB%D0%B5%D1%81%D0%B0%D1%80%D1%8C%20%D0%9A%D0%98%D0%9F%D0%B8%D0%90/00.%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%9F%D0%9E_%D0%9A%D0%9F%D0%9A_%D0%9A%D0%98%D0%9F.docx) |
 | 21.11.2026 | MAX | [Коты, кошки и котята] Боги среди нас: абиссинская кошка | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-21-008-bogi-sredi-nas-p1.md) |
-| 21.11.2026 | MAX | [AI] Что такое промт: 6 шаблонов на каждый день | запланировано | публикация по Планировщику, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-21-chto-takoe-promt-6-shablonov.md) |
 | 21.11.2026 | MAX | [Забавное] Подпишись на канал Забавное — забавные ролики для хорошего настроения 🎬 | запланировано | публикация по Планировщику, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-21-random-20758878292603.md) |
 
 ## Сегодня
 
 | когда | репо | задача | статус | зачем | ссылка |
 |---|---|---|---|---|---|
-| 22.11.2026 | MAX | [AI] Новостная за неделю: Nvidia без Хуанга, чиповые гайки и подорожавшая память | запланировано | публикация по Планировщику, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-22-novostnaya-za-nedelyu.md) |
 | 22.11.2026 | MAX | [Забавное] Подпишись на Забавное — если любите, когда смешно 🎬 | запланировано | публикация по Планировщику, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-22-random-19750541265660.md) |
 
 ## На неделю (до 29.11.2026)
