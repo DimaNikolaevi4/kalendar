@@ -1,27 +1,27 @@
 # План по всем репозиториям `E:\github`
 
-> Собрано автоматически: **21.11.2026 13:00 МСК**, задача «kalendar build plan» (07:25). Источники — `plans/*.json`,
+> Собрано автоматически: **22.11.2026 09:14 МСК**, задача «kalendar build plan» (07:25). Источники — `plans/*.json`,
 > их «скидывают» репозитории скриптом `drop.py`; источник истины — `plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.
 
 Обновлено планов в хабе: **13** · задач всего: **282**
 
-Открытых задач: 198 · просрочено: **6** · сделано: 84
+Открытых задач: 198 · просрочено: **9** · сделано: 84
 
 | репозиторий | план обновлён | всего | просрочено | сделано |
 |---|---|---|---|---|
-| [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 21.11 13:00 | 1 | 0 | 0 |
-| [BPLA](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/BPLA.json) | 21.11 13:00 | 1 | 0 | 1 |
-| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 21.11 13:00 | 16 | 1 | 3 |
-| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 21.11 13:00 | 238 | 4 | 77 |
-| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 21.11 13:00 | 4 | 0 | 1 |
-| [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 21.11 13:00 | 1 | 0 | 0 |
-| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 21.11 13:00 | 4 | 0 | 0 |
-| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 21.11 13:00 | 3 | 0 | 1 |
-| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 21.11 13:00 | 8 | 0 | 0 |
-| [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 21.11 13:00 | 1 | 0 | 0 |
-| [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 21.11 13:00 | 1 | 0 | 0 |
-| [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 21.11 13:00 | 1 | 0 | 0 |
-| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 21.11 13:00 | 3 | 1 | 1 |
+| [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 22.11 09:15 | 1 | 0 | 0 |
+| [BPLA](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/BPLA.json) | 22.11 09:15 | 1 | 0 | 1 |
+| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 22.11 09:14 | 16 | 1 | 3 |
+| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 22.11 09:14 | 238 | 7 | 77 |
+| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 22.11 09:14 | 4 | 0 | 1 |
+| [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 22.11 09:15 | 1 | 0 | 0 |
+| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 22.11 09:15 | 4 | 0 | 0 |
+| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 22.11 09:14 | 3 | 0 | 1 |
+| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 22.11 09:14 | 8 | 0 | 0 |
+| [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 22.11 09:15 | 1 | 0 | 0 |
+| [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 22.11 09:15 | 1 | 0 | 0 |
+| [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 22.11 09:15 | 1 | 0 | 0 |
+| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 22.11 09:15 | 3 | 1 | 1 |
 
 ## Просрочено
 
@@ -33,21 +33,21 @@
 | 20.11.2026 | MAX | [Коты, кошки и котята] На фото — герои завтрашней статьи | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-20-008-bogi-sredi-nas-img1.md) |
 | 20.11.2026 | MAX | [Забавное] Подпишись на канал Забавное — ролики, которые хочется пересматривать 🎬 | запланировано | публикация по Планировщику, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-20-random-19763690080989.md) |
 | 20.11.2026 | vol | Подготовить ОДИН готовый паспорт программы по новой редакции (18494 Слесарь КИПиА) - красная зона, работа от 4 дней | в работе | готовый паспорт - к 20.11 (указание владельца 17.11); работа идет ежедневно 18-20.11, задача присутствует во всех днях плана; 25.11 - только запас, не срок. 18.11: работа ведется в ОТДЕЛЬНОЙ сессии (объемная задача); из хаб-сессии - только информирование. Прогресс дня №1 (18.11): инвентаризация untracked-материала vol выполнена (323 пути: norma/, scripts/, audits/, docs/, 3 папки профессий, worklog), ключевые доки прочитаны (СХЕМА_ПРОГРАММЫ.md, audits 00-ЗАКОНОМЕРНОСТИ и 00-ЧЕК_ЛИСТ); фиксация материала коммитами - еще не сделана, впереди | [открыть](https://github.com/DimaNikolaevi4/vol/blob/main/%D0%A1%D0%BB%D0%B5%D1%81%D0%B0%D1%80%D1%8C%20%D0%BF%D0%BE%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE-%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%BC%20%D0%BF%D1%80%D0%B8%D0%B1%D0%BE%D1%80%D0%B0%D0%BC%20%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5/%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%B2%D0%B0%D0%BB%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8%2018494%20%D0%A1%D0%BB%D0%B5%D1%81%D0%B0%D1%80%D1%8C%20%D0%9A%D0%98%D0%9F%D0%B8%D0%90/00.%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%9F%D0%9E_%D0%9A%D0%9F%D0%9A_%D0%9A%D0%98%D0%9F.docx) |
+| 21.11.2026 | MAX | [Коты, кошки и котята] Боги среди нас: абиссинская кошка | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-21-008-bogi-sredi-nas-p1.md) |
+| 21.11.2026 | MAX | [AI] Что такое промт: 6 шаблонов на каждый день | запланировано | публикация по Планировщику, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-21-chto-takoe-promt-6-shablonov.md) |
+| 21.11.2026 | MAX | [Забавное] Подпишись на канал Забавное — забавные ролики для хорошего настроения 🎬 | запланировано | публикация по Планировщику, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-21-random-20758878292603.md) |
 
 ## Сегодня
 
 | когда | репо | задача | статус | зачем | ссылка |
 |---|---|---|---|---|---|
-| 21.11.2026 | MAX | [Коты, кошки и котята] Боги среди нас: абиссинская кошка | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-21-008-bogi-sredi-nas-p1.md) |
-| 21.11.2026 | MAX | [AI] Что такое промт: 6 шаблонов на каждый день | запланировано | публикация по Планировщику, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-21-chto-takoe-promt-6-shablonov.md) |
-| 21.11.2026 | MAX | [Забавное] Подпишись на канал Забавное — забавные ролики для хорошего настроения 🎬 | запланировано | публикация по Планировщику, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-21-random-20758878292603.md) |
+| 22.11.2026 | MAX | [AI] Новостная за неделю: Nvidia без Хуанга, чиповые гайки и подорожавшая память | запланировано | публикация по Планировщику, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-22-novostnaya-za-nedelyu.md) |
+| 22.11.2026 | MAX | [Забавное] Подпишись на Забавное — если любите, когда смешно 🎬 | запланировано | публикация по Планировщику, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-22-random-19750541265660.md) |
 
-## На неделю (до 28.11.2026)
+## На неделю (до 29.11.2026)
 
 | когда | репо | задача | статус | зачем | ссылка |
 |---|---|---|---|---|---|
-| 22.11.2026 | MAX | [AI] Новостная за неделю: Nvidia без Хуанга, чиповые гайки и подорожавшая память | запланировано | публикация по Планировщику, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-22-novostnaya-za-nedelyu.md) |
-| 22.11.2026 | MAX | [Забавное] Подпишись на Забавное — если любите, когда смешно 🎬 | запланировано | публикация по Планировщику, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-22-random-19750541265660.md) |
 | 23.11.2026 | Konkurs | Практика КИП-31 23.11–19.12: КИП-31 недоступны — Минск онлайн с докладчиком из группы М-21 | сделать | пометка 18.11 (уточнение владельца): Чагин из КИП-31 не может быть на связи 03–04.12; онлайн-форма сохраняется, докладчика берём из группы М-21. При регистрации 20–23.11 указываем «дистанционно в режиме онлайн» | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/plan-raboty.md) |
 | 23.11.2026 | Konkurs | Выяснить даты практики группы КИП-31 в начале декабря (02–04.12) — влияет на форму участия Минска | сделать | задача владельца (расписаний в репозиториях нет): если Садчиков В. В. (докладчик Минска, ориентировочно) 02–04.12 будет на практике — дистанционное онлайн-выступление невозможно, регистрироваться «заочно»; узнать до регистрации 24.11; заодно влияет на готовность Морозова Д. С. по статье АЧИИ | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/plan-raboty.md) |
 | 23.11.2026 | MAX | [Коты, кошки и котята] На фото — герои завтрашнего выпуска | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-23-003-6-unikalnyh-porod-koshek-img1.md) |
@@ -70,16 +70,16 @@
 | 28.11.2026 | Konkurs | Проверить список допущенных на guo-mpk.by | сделать | подтверждение допуска к выступлению | — |
 | 28.11.2026 | MAX | [Коты, кошки и котята] Бенгальская кошка: леопард в вашем доме | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-28-007-bengalskiy-kot-leopard-v-vashem-dome-p1.md) |
 | 28.11.2026 | MAX | [Забавное] Панда с малышами | запланировано | публикация по Планировщику, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-28-random-AZ-4SS26T7w.md) |
+| 29.11.2026 | MAX | [Коты, кошки и котята] Фото героев завтрашней статьи | запланировано | публикация по Планировщику, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-29-011-vlasti-ssha-vydelyat-15-milliona-dollarov-dlya-p-img1.md) |
+| 29.11.2026 | MAX | [AI] Что не сработало: ИИ-редактор в браузере | запланировано | публикация по Планировщику, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-29-chto-ne-srabotalo-ii-redaktor-v-brauzere.md) |
+| 29.11.2026 | MAX | [Забавное] Юный пастух 1 день на работе | запланировано | публикация по Планировщику, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-29-random-AaFYPAPuU5k.md) |
 
-## Запланировано (позже 28.11.2026)
+## Запланировано (позже 29.11.2026)
 
-<details><summary>задач: 141 — развернуть</summary>
+<details><summary>задач: 138 — развернуть</summary>
 
 | когда | репо | задача | зачем |
 |---|---|---|---|
-| 29.11.2026 | MAX | [Коты, кошки и котята] Фото героев завтрашней статьи | публикация по Планировщику, канал «Коты, кошки и котята» |
-| 29.11.2026 | MAX | [AI] Что не сработало: ИИ-редактор в браузере | публикация по Планировщику, канал «AI» |
-| 29.11.2026 | MAX | [Забавное] Юный пастух 1 день на работе | публикация по Планировщику, канал «Забавное» |
 | 30.11.2026 | cit-calck.rf | Контент-ревизия: ссылки и материалы сайта (аудиты, после фикса «ссылки на аудиты вели в репозиторий site») | недавние фиксы указывают на хрупкие связи контент↔репозиторий |
 | 30.11.2026 | demoexam-kip | Ноябрь - старт задания 1: стенд УЛС ШПН, ПЭС и монтажная схема, алгоритм, методика локализации неисправностей, пробное З1 без времени | работа с детьми по плану компетенций; материалы для студентов готовы: docs/training/Задание_1_обучение_поиск_неисправностей.docx |
 | 30.11.2026 | MAX | [Коты, кошки и котята] Власти США выделят 1,5 млн долларов на оценку популяции бездомных кошек в Вашинг | публикация по Планировщику, канал «Коты, кошки и котята» |
