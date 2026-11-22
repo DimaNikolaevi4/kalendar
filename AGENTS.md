@@ -13,6 +13,9 @@
 5. Ручные правки владельца в канале — это сырой материал, а не эталон: их надо
    доводить до `style.md` и 4 слоёв вычитки, а не сохранять как есть.
    Источник истины для стиля — `style.md` + 4 слоя; источник фактов — канал.
+6. Локальный Планировщик Windows **не используется**. Публикации ainow/catden/zabava/
+   administrator идут серверным cron на хостинге Beget; na100 собирает и публикует агент
+   при первом утреннем запуске по команде владельца (ФАЗА 3).
 
 ---
 
@@ -122,6 +125,73 @@ py E:\github\MAX\roles\blogger\tools\ainow_polish.py <файл-поста> --che
 ✏️ **Исправлено:**
 - [ID/Ссылка]: [что изменено]
 ```
+
+---
+
+## ФАЗА 3. Утренний выпуск na100 (первое включение машины)
+
+Условие: владелец первым утренним включением дал команду «смотри E:\github\kalendar»,
+окно **06:00–12:00 МСК**, и метки `E:\github\kalendar\local\na100-morning-<дата>.done` нет.
+Метка в gitignored `local/` обеспечивает идемпотентность: повторного выпуска в тот же день не будет.
+
+1. Узнать состояние (скрипт только читает репозитории):
+
+   ```powershell
+   [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+   $env:PYTHONIOENCODING='utf-8'
+   py E:\github\kalendar\bin\na100_morning.py
+   ```
+
+   `action`: `skip_published` / `skip_marker` / `skip_window` — публикация не нужна;
+   `build_draft` → п. 2; `write_text` → п. 3; `make_cover` → п. 4; `publish_ready` → п. 5.
+
+2. Черновик (если нет черновика и поста на сегодня):
+
+   ```powershell
+   cd E:\github\MAX
+   py roles\blogger\tools\digest_build.py --channel na100
+   ```
+
+3. Текст выпуска пишет **агент сам** по `roles/blogger/channels/na100/style.md` и черновику
+   `digests/<дата>-draft.json`: 5 новостей (1 РФ + 1 Китай + 3 мира; при пустом Китае —
+   1 РФ + 4 мира с пометкой), хук 40–60 знаков, у каждого пункта «Что случилось» и
+   «Почему важно», ≥2 цифр в подзаголовках, итог со связкой, CTA из `cta-phrases.json`
+   без повторов, атрибуция иллюстрации, длина 3400–3700 (жёстко ≤4000).
+   Файл `posts/<дата>-pyaterka-tehnologij.md` со `status: approved` и без `image_file`.
+   Проверка: `py roles\blogger\tools\digest_polish.py <пост> --check`.
+
+4. Обложка: повторный `digest_build.py --channel na100` сам дописывает `image_file` и
+   коммитит (скрипт стандарта — `digest_cover_photo.py`, фон из пула).
+
+5. Публикация:
+
+   ```powershell
+   $env:MAX_HTTP='python'
+   $env:MAX_CA_CERT='local/russian_ca_bundle.pem'
+   py roles\blogger\tools\publish_scheduled.py --channel na100 --limit 1
+   ```
+
+   - LanguageTool блокирует по ложным срабатываниям на имена/техно-сленг — добавить корни
+     в `roles/blogger/channels/na100/spell-ignore.json`, закоммитить и повторить.
+   - `local/publish-scheduled.lock` после прерванного запуска (PID в процессах отсутствует)
+     удалить и повторить.
+   - После успеха: проверить `GET /messages?chat_id=<na100>&count=3` и `status: published`
+     в файле поста; закоммитить и запушить сопутствующие `plan.json`,
+     `lexicon-calibration.jsonl`, `cta-phrases.json` — **поимённо, не `git add -A`**.
+   - Обновить хаб: `py E:\github\kalendar\build_plan.py --push`.
+
+6. Метка: `py E:\github\kalendar\bin\na100_morning.py --mark`.
+
+### Формат отчёта ФАзы 3
+
+```
+✅ **NA100 ЗАВЕРШЕН**
+- Выпуск: <ссылка>
+- Новости: N, обложка: есть
+- План обновлён: да/нет
+```
+
+Если `action` не требует публикации — одной строкой: «na100: <причина>, публикация не нужна».
 
 ---
 
