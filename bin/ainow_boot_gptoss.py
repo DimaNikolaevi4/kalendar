@@ -41,7 +41,14 @@ def front_matter(path: Path) -> dict:
 def state(now: datetime) -> dict:
     today = now.date().isoformat()
     marker_path = HUB / "local" / f"ainow-boot-gptoss-{today}.done"
-    posts = sorted((AINOW / "posts").glob(f"{today}-*.md"))
+    # Наш пост — только с publish_time 12:00 или меткой модели Cloudflare;
+    # обычные посты плана 21:30 этим задачам не являются.
+    posts = []
+    for candidate in sorted((AINOW / "posts").glob(f"{today}-*.md")):
+        cfm = front_matter(candidate)
+        if (cfm.get("publish_time") == "12:00"
+                or str(cfm.get("model") or "").startswith("cloudflare/")):
+            posts.append(candidate)
     post = posts[0] if posts else None
     fm = front_matter(post) if post else {}
     news = MAX / "local" / "gptoss-news" / f"{today}-news.json"
