@@ -195,6 +195,38 @@ py E:\github\MAX\roles\blogger\tools\ainow_polish.py <файл-поста> --che
 
 ---
 
+## ФАЗА 3а. Дневной пост ainow на 12:00 (первое включение машины)
+
+Условие: владелец первым включением дал команду «смотри E:\github\kalendar»,
+окно **06:00–11:00 МСК**, метки `E:\github\kalendar\local\ainow-boot-gptoss-<дата>.done` нет.
+Служебная задача — `orch-ainow-boot-gptoss-1200` (`source: kalendar`) в `MAX/plan.json`;
+параметры — `E:\github\MAX\roles\blogger\config\ainow-boot-gptoss-automation.json`.
+Полный протокол — `docs\ai-orchestration\prompts\05-ainow-daily-12.md`.
+
+1. Состояние: `py E:\github\kalendar\bin\ainow_boot_gptoss.py`
+   (`skip_published` / `skip_marker` / `skip_window` / `build_post` / `call_gptoss` / `proofread`).
+2. Выбрать самую обсуждаемую IT-новость за сутки (Habr top + RSS из
+   `MAX/roles/blogger/config/techdigest_feeds.json`), записать проверенные факты в
+   gitignored `MAX/local/gptoss-news/<дата>-news.json`.
+3. Собрать промт по `MAX/roles/blogger/channels/ainow/gptoss-news-prompt.md` и вызвать
+   `py E:\github\MAX\roles\blogger\tools\gptoss_news_post.py --news <news.json> --out <raw.txt>`
+   (модель `@cf/openai/gpt-oss-120b`; токен — только из gitignored `E:\github\ai.txt`).
+4. Прогнать **четыре слоя вычитки** (§5а+ MAX/AGENTS.md): LanguageTool блокирует,
+   читаемость и humanizer — WARN, затем финальная вычитка и `ainow_polish.py --check`.
+   По прямому распоряжению владельца 25.11 **«ок» не требуется** — только для этой задачи;
+   если блокер нельзя снять без искажения фактов — стоп, отчёт, метку не ставить.
+5. Обложка ≥1,50, залить на хостинг `/0s3/public_html/blogger/covers/ainow/<дата>-cover.png`
+   (FTP-доступ — из gitignored локального файла). Пост
+   `MAX/roles/blogger/channels/ainow/posts/<дата>-<slug>.md` со `status: approved`,
+   `publish_time: 12:00`, `format_core: 1`, `tail_mode: free` (творческая зона
+   §0.11: первый абзац и произвольный порядок хвоста); коммит поимённо и пуш в GitHub `main`
+   (хостинг-крон читает GitHub API, без git pull и без слоёв вычитки).
+6. Метка: `py E:\github\kalendar\bin\ainow_boot_gptoss.py --mark`.
+7. Отчёт в рабочем чате; в «календарь» — только план-запись
+   «<дата> — 12:00 — <заголовок>: пост готов, залит на хостинг», без `notify`.
+
+---
+
 ## Справочно: MAX Bot API (проверено 21.11.2026)
 
 | Что | Как |
