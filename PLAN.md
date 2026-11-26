@@ -1,27 +1,27 @@
 # План по всем репозиториям `E:\github`
 
-> Собрано автоматически: **24.11.2026 08:30 МСК**, задача «kalendar build plan» (07:25). Источники — `plans/*.json`,
+> Собрано автоматически: **26.11.2026 07:25 МСК**, задача «kalendar build plan» (07:25). Источники — `plans/*.json`,
 > их «скидывают» репозитории скриптом `drop.py`; источник истины — `plan.json` в корне каждого репо. Ручные правки PLAN.md бессмысленны.
 
-Обновлено планов в хабе: **13** · задач всего: **294**
+Обновлено планов в хабе: **13** · задач всего: **298**
 
-Открытых задач: 188 · просрочено: **4** · сделано: 106
+Открытых задач: 189 · просрочено: **13** · сделано: 109
 
 | репозиторий | план обновлён | всего | просрочено | сделано |
 |---|---|---|---|---|
-| [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 24.11 08:31 | 1 | 0 | 0 |
-| [BPLA](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/BPLA.json) | 24.11 08:31 | 1 | 0 | 1 |
-| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 24.11 08:30 | 17 | 0 | 10 |
-| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 24.11 08:30 | 249 | 3 | 92 |
-| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 24.11 08:30 | 4 | 0 | 1 |
-| [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 24.11 08:31 | 1 | 0 | 0 |
-| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 24.11 08:31 | 4 | 0 | 0 |
-| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 24.11 08:30 | 3 | 0 | 1 |
-| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 24.11 08:31 | 8 | 0 | 0 |
-| [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 24.11 08:31 | 1 | 0 | 0 |
-| [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 24.11 08:31 | 1 | 0 | 0 |
-| [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 24.11 08:31 | 1 | 0 | 0 |
-| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 24.11 08:31 | 3 | 1 | 1 |
+| [AvtoOtvety-Seller](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/AvtoOtvety-Seller.json) | 26.11 07:25 | 1 | 0 | 0 |
+| [BPLA](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/BPLA.json) | 26.11 07:25 | 1 | 0 | 1 |
+| [Konkurs](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/Konkurs.json) | 26.11 07:25 | 17 | 1 | 10 |
+| [MAX](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/MAX.json) | 26.11 07:25 | 253 | 11 | 95 |
+| [YMK](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/YMK.json) | 26.11 07:25 | 4 | 0 | 1 |
+| [avtosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/avtosite.json) | 26.11 07:25 | 1 | 0 | 0 |
+| [bardakov.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/bardakov.rf.json) | 26.11 07:25 | 4 | 0 | 0 |
+| [cit-calck.rf](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/cit-calck.rf.json) | 26.11 07:25 | 3 | 0 | 1 |
+| [demoexam-kip](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/demoexam-kip.json) | 26.11 07:25 | 8 | 0 | 0 |
+| [ii-monolit](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/ii-monolit.json) | 26.11 07:25 | 1 | 0 | 0 |
+| [moodle](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/moodle.json) | 26.11 07:25 | 1 | 0 | 0 |
+| [videosite](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/videosite.json) | 26.11 07:25 | 1 | 0 | 0 |
+| [vol](https://github.com/DimaNikolaevi4/kalendar/blob/main/plans/vol.json) | 26.11 07:25 | 3 | 1 | 1 |
 
 ## Просрочено
 
@@ -31,30 +31,30 @@
 | 23.11.2026 | MAX | [Коты, кошки и котята] На фото — герои завтрашнего выпуска | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-23-003-6-unikalnyh-porod-koshek-img1.md) |
 | 23.11.2026 | MAX | [AI] ИИ-инструменты для программирования: что попробовать бесплатно | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-23-ii-instrumenty-dlya-programmirovaniya.md) |
 | 23.11.2026 | MAX | [Забавное] Подпишись на Забавное, чтобы не пропустить свежие ролики 🎬 | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-23-random-19265728809544.md) |
-
-## Сегодня
-
-| когда | репо | задача | статус | зачем | ссылка |
-|---|---|---|---|---|---|
 | 24.11.2026 | MAX | [Коты, кошки и котята] 6 уникальных пород кошек | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-24-003-6-unikalnyh-porod-koshek-p1.md) |
 | 24.11.2026 | MAX | [Каналы в MAX: рост и автопилот] 📊 Цифра недели: что показали наши каналы | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Каналы в MAX: рост и автопилот» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/administrator/posts/2026-11-24-cifra-nedeli.md) |
 | 24.11.2026 | MAX | [AI] Нейросеть без регистрации: проверили, кто пускает без входа | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-24-neyroset-bez-registracii-proverili-kto-puskaet.md) |
 | 24.11.2026 | MAX | [Забавное] Подпишись на Забавное — и порция юмора всегда под рукой 🎬 | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-24-random-20758878095995.md) |
 | 24.11.2026 | MAX | [AI] Ставки перед IPO: что читать в чужих оценках | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-24-stavki-pered-ipo.md) |
-
-## На неделю (до 01.12.2026)
-
-| когда | репо | задача | статус | зачем | ссылка |
-|---|---|---|---|---|---|
 | 25.11.2026 | Konkurs | Подтвердить тему/студента/направление для АЧИИ «День энергетика»: «Охладительная установка на элементе Пельтье», Морозов Д. С. | в работе | 22.11 тема закреплена за этой конференцией: «Охладительная установка на элементе Пельтье» (готовый диплом Самойленко/Алисова в E:\конкурсы\Диплом охладительная установка…), студент Морозов Данил Сергеевич, 3 курс КИП-31, направление № 4 «Электроэнергетика, электротехника и возобновляемая энергетика». В Минск тему не подаём, чтобы не дублировать её в двух сборниках. К 25.11 подтвердить окончательно; вариант «расчёт ЗИП» отклонён владельцем (несерьёзная тема) | [открыть](https://github.com/DimaNikolaevi4/Konkurs/blob/main/plan-raboty.md) |
 | 25.11.2026 | MAX | [Коты, кошки и котята] Герои завтрашней статьи — на фото | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-25-006-9-samyh-krasivyh-korotkosherstnyh-porod-koshek-img1.md) |
 | 25.11.2026 | MAX | [AI] Как отличить ИИ-видео: 6 детекторов и 5 признаков | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-25-kak-otlichit-ii-video-6-detektorov.md) |
 | 25.11.2026 | MAX | [Забавное] Подпишись на канал Забавное — здесь можно улыбнуться 🎬 | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-25-random-18636718475791.md) |
+
+## Сегодня
+
+| когда | репо | задача | статус | зачем | ссылка |
+|---|---|---|---|---|---|
 | 26.11.2026 | MAX | [Коты, кошки и котята] 9 самых красивых короткошерстных пород кошек | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-26-006-9-samyh-krasivyh-korotkosherstnyh-porod-koshek-p1.md) |
 | 26.11.2026 | MAX | [AI] Чат-бот в MAX: 5 проверок перед доступом | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-26-chat-bot-v-max-5-proverok.md) |
 | 26.11.2026 | MAX | [Нейро Мульт Студия] 🎬 Что остаётся в этом канале | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Нейро Мульт Студия» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/tg_neuro/posts/2026-11-26-chto-ostalos-zdes.md) |
 | 26.11.2026 | MAX | [Каналы в MAX: рост и автопилот] 🛠 Что мы починили: формат постов и гейты публикации | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Каналы в MAX: рост и автопилот» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/administrator/posts/2026-11-26-chto-pochinili.md) |
 | 26.11.2026 | MAX | [Забавное] В буфете произошла драка — невозмутимость буфетчицы восхищает | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-11-26-random-AaB6aufjRI0.md) |
+
+## На неделю (до 03.12.2026)
+
+| когда | репо | задача | статус | зачем | ссылка |
+|---|---|---|---|---|---|
 | 27.11.2026 | demoexam-kip | Утвердить помесячный план подготовки к ДЭ - разбивка принята к работе, уточнить: ПЛР и ПО для задания 4, часы практики по расписанию, кто техэксперт | в работе |  | [открыть](https://github.com/DimaNikolaevi4/demoexam-kip/blob/main/docs/prep-plan.md) |
 | 27.11.2026 | MAX | [Коты, кошки и котята] На фото — герои завтрашней статьи | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-11-27-007-bengalskiy-kot-leopard-v-vashem-dome-img1.md) |
 | 27.11.2026 | MAX | [AI] ИИ для учителя: 5 приёмов, которые экономят вечер | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-11-27-ii-dlya-uchitelya-5-priemov.md) |
@@ -74,18 +74,18 @@
 | 01.12.2026 | MAX | [Коты, кошки и котята] На фото — герои завтрашнего выпуска | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-12-01-012-vozniknovenie-porody-sibirskih-koshek-img1.md) |
 | 01.12.2026 | MAX | [AI] Что не сработало: ИИ-редактор в браузере | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «AI» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/ainow/posts/2026-12-01-chto-ne-srabotalo-ii-redaktor-v-brauzere.md) |
 | 01.12.2026 | MAX | [Забавное] Маленький аллигатор | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-12-01-random-AaDpA01fcXY.md) |
+| 02.12.2026 | Konkurs | Проверить на guo-mpk.by ссылку для подключения к заседанию | сделать | накануне выступления 03–04.12 | — |
+| 02.12.2026 | MAX | [Коты, кошки и котята] Возникновение породы сибирских кошек | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-12-02-012-vozniknovenie-porody-sibirskih-koshek-p1.md) |
+| 02.12.2026 | MAX | [Забавное] Подари перо | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Забавное» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/zabava/posts/2026-12-02-random-AaEawDEQOxo.md) |
+| 03.12.2026 | Konkurs | Выступление Минск (Google Meet, до 5 минут, с презентацией) | сделать | заседание секции № 2 («Гидропоника»); докладчик — Паталахин Павел Владимирович (2 курс, М-21); КИП-31 на практике 23.11–19.12, онлайн-эфир 03–04.12 ведёт студент М-21 | — |
+| 03.12.2026 | MAX | [Коты, кошки и котята] ВАШ КОТЕНОК | запланировано | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Коты, кошки и котята» | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-12-03-010-vash-kotenok-p1.md) |
 
-## Запланировано (позже 01.12.2026)
+## Запланировано (позже 03.12.2026)
 
-<details><summary>задач: 131 — развернуть</summary>
+<details><summary>задач: 126 — развернуть</summary>
 
 | когда | репо | задача | зачем |
 |---|---|---|---|
-| 02.12.2026 | Konkurs | Проверить на guo-mpk.by ссылку для подключения к заседанию | накануне выступления 03–04.12 |
-| 02.12.2026 | MAX | [Коты, кошки и котята] Возникновение породы сибирских кошек | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Коты, кошки и котята» |
-| 02.12.2026 | MAX | [Забавное] Подари перо | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Забавное» |
-| 03.12.2026 | Konkurs | Выступление Минск (Google Meet, до 5 минут, с презентацией) | заседание секции № 2 («Гидропоника»); докладчик — Паталахин Павел Владимирович (2 курс, М-21); КИП-31 на практике 23.11–19.12, онлайн-эфир 03–04.12 ведёт студент М-21 |
-| 03.12.2026 | MAX | [Коты, кошки и котята] ВАШ КОТЕНОК | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Коты, кошки и котята» |
 | 05.12.2026 | Konkurs | Статья АЧИИ «День энергетика» (≤4 стр., стандарт АЧИИ) на energy_nauka@mail.ru | дедлайн 05.12 включительно |
 | 05.12.2026 | MAX | [Коты, кошки и котята] Кормление | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Коты, кошки и котята» |
 | 07.12.2026 | MAX | [Коты, кошки и котята] Все о персидских кошках! | публикация только через хостинг-крон; локальные задачи Windows не используются, канал «Коты, кошки и котята» |
@@ -234,6 +234,7 @@
 | MAX | [Коты, кошки и котята] Кот, ёлка и последняя ночь года | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2026-12-31-holiday-ny-eve-p1.md) |
 | MAX | [Коты, кошки и котята] Первое утро нового года | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2027-01-01-holiday-ny-day-p1.md) |
 | MAX | [Коты, кошки и котята] Рождественский уют на четырёх лапах | черновик, ждёт «ок» владельца | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/channels/catden/posts/2027-01-07-holiday-xmas-p1.md) |
+| MAX | [ainow] При включении машины: самая обсуждаемая IT-новость → gpt-oss-120b → сырой пост → четыре слоя вычитки → 12:00 Format 1 | Оркестрация kalendar↔MAX: первое утреннее включение, отбор самой обсуждаемой IT-новости, промт для Cloudflare Workers AI @cf/openai/gpt-oss-120b, сохранение сырого поста, вычитка агентом и размещение с publish_time 12:00 | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/config/ainow-boot-gptoss-automation.json) |
 | MAX | [catden] Служебная команда автопилота: четверг медиа (11д), пятница стилистика+слои 1-3+превью 10д в календарь | Оркестрация kalendar↔MAX: синхронизация по команде, отчёт в календарь, публикация catden 20:00 МСК по графику | [открыть](https://github.com/DimaNikolaevi4/MAX/blob/main/roles/blogger/config/catden-automation.json) |
 | moodle | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
 | videosite | Срочных дел нет: определить актуальные задачи репозитория в свободное время | владелец: остальные репозитории не требуют срочных дел | — |
