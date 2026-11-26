@@ -101,6 +101,36 @@ bardakov.rf, vol, ii-monolit, avtosite, AvtoOtvety-Seller, moodle, videosite (12
 Агент обязан прогонять этот чек-лист перед любым коммитом и не пушить,
 пока в `git diff --cached --stat` нет неожиданных удалений.
 
+## ИИ-модели через Cloudflare API (проверено 26.11.2026)
+
+На этой машине доступен вывод моделей через **Cloudflare Workers AI** — это отдельный
+канал ИИ, не связанный с публикациями в MAX.
+
+- Токен: `E:\github\kalendar\local\cloudflare-token.txt` (каталог `local/` в `.gitignore`,
+  в git не попадает). Исходная заметка `E:\github\ai.txt` теперь содержит только ссылку
+  на панель токенов и путь к файлу — секрета в ней нет.
+- Account ID (не секрет) — из URL панели в `E:\github\ai.txt`; в командах ниже `<ACCOUNT_ID>`.
+- Endpoint: `POST https://api.cloudflare.com/client/v4/accounts/<ACCOUNT_ID>/ai/run/<model>`.
+- Проверенная модель: `@cf/meta/llama-3.1-8b-instruct` (фактически отдаётся
+  `@cf/meta/llama-3.1-8b-fast-v2`). Тело запроса — `{"messages":[{"role":"user","content":"..."}]}`;
+  формат `{"prompt":"..."}` тоже принимается, но ответ менее предсказуем.
+- Права токена: только Workers AI Inference. `/accounts` и `/zones` возвращают пустые
+  списки, `/user` — `403 / 9109`. Для DNS и зональных операций нужен отдельный токен.
+- Проверка 26.11.2026: `HTTP 200`, `success: true`, ответ модели получен.
+
+Пример (PowerShell 5.1):
+
+```powershell
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+$token = (Get-Content 'E:\github\kalendar\local\cloudflare-token.txt' -Raw).Trim()
+$acc = (Get-Content 'E:\github\ai.txt' | Where-Object { $_ -match 'cloudflare\.com' }).Split('/')[3]
+$body = @{ messages = @(@{ role='user'; content='Привет! Ответь кратко.' }) } | ConvertTo-Json -Depth 5
+$r = Invoke-RestMethod -Method Post `
+  -Uri "https://api.cloudflare.com/client/v4/accounts/$acc/ai/run/@cf/meta/llama-3.1-8b-instruct" `
+  -Headers @{ Authorization = "Bearer $token" } -ContentType 'application/json' -Body $body
+$r.result.response
+```
+
 ## Ручные команды
 
 ```powershell
